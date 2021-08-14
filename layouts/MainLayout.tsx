@@ -8,22 +8,8 @@ interface Props {
 
 const MainLayout = ({ children }: Props) => {
 
-    useEffect(() => {
-        if (typeof window !== 'undefined') {
-            if (
-                localStorage.theme === 'dark' ||
-                (!('theme' in localStorage) &&
-                    window.matchMedia('(prefers-color-scheme: dark)').matches)
-            ) {
-                document.documentElement.classList.add('dark');
-            } else {
-                document.documentElement.classList.remove('dark');
-            }
-        }
-    }, []);
-
     return (
-        <div className="flex flex-col min-h-screen bg-spacey-heavy">
+        <div className="flex flex-col min-h-screen bg-spacey-heavy text-spacey-white">
             <NavBar />                
             <div className="pb-6 flex-1">
                  {children}

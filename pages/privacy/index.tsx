@@ -3,9 +3,14 @@ import withLayout from '../../hocs/withLayout'
 
 const Privacy: NextPage = () => {
   return (
-    <div>
-     <div>This is DAO main page </div>
-     <div className="box-border h-32 w-32 p-4 border-4"></div>
+    <div className="container mt-20 mx-auto">
+     <h1>PRIVACY POLICY</h1>
+     <div>
+         <h3>1. Introduction</h3>
+     </div>
+     <div>
+         <h3>2. Information Collected in the Site and Tools </h3>
+     </div>
     </div>
   )
 }

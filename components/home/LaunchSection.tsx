@@ -1,13 +1,25 @@
 import React from 'react';
-import startDefense from '../../public/images/ic_defend@2x.png'
 import Image from 'next/image'
+import startLaunch  from '../../public/images/ic_launch@2x.png'
 
 const LaunchSection =  () => {
   return (
     <section>
-        <div className="container mx-auto">
-            <Image src={startDefense} alt="Start Defense" />
-            <div className="box-border h-32 w-32 p-4 border-4"></div>
+        <div className="container mx-auto mt-20">
+            <div>MARS &</div>
+            <div>COLONY MARS with THE POWER OF BLOCK CHAIN</div>
+            <div>BLOCK CHAIN</div>
+        </div>
+     
+        <div className="container mx-auto mt-20">
+        <div>
+            Purchase your SpaceY Boardding Pass to get early access to the grand exploring on Mars
+        </div>
+            <div>
+                <a href="/">
+                    <Image src={startLaunch}></Image>
+                </a>
+            </div>
         </div>
     </section>
 

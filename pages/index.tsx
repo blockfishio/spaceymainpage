@@ -2,16 +2,18 @@ import type { NextPage } from 'next'
 import NavBar from '../components/common/Navbar'
 import Footer from '../components/common/Footer'
 import LaunchSection from '../components/home/LaunchSection'
-import DefenseSection from '../components/home/LaunchSection'
+import ExploreSection from '../components/home/ExploreSection'
+import DefenseSection from '../components/home/DefenseSection'
+import ContactSection from '../components/home/ContactSection'
 
 const Home: NextPage = () => {
   return (
     <div>
       <NavBar />
       <LaunchSection />
+      <ExploreSection />
       <DefenseSection />
-     <div>This is atest 22</div>
-     <div className="box-border h-32 w-32 p-4 border-4"></div>
+      <ContactSection />
      <Footer mode="light" />
     </div>
     

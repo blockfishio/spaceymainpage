@@ -14,7 +14,7 @@ const Footer = ({mode}:Props) => {
         },
         {
             title: 'Privacy Policy', 
-            link: '/'
+            link: '/privacy'
         },
         {
             title: 'Term of Use', 
