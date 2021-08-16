@@ -27,11 +27,11 @@ const LaunchSection =  () => {
                </div>
             </div>
         </div>
-        <div className="container mx-auto mt-20">   
+        <div className="container mx-auto mt-20 mb-20 overflow-hidden">   
             
-            <div>
+            <div className="float-right"> 
                 <a href="/">
-                    <Image src={startLaunch}></Image>
+                    <Image src={startLaunch} width="420" height="140"></Image>
                 </a>
             </div>
         </div>
