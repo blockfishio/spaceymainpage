@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image'
 import startLaunch  from '../../public/images/ic_launch@2x.png'
+import Link from 'next/link'
 
 const LaunchSection =  () => {
   return (
@@ -30,9 +31,11 @@ const LaunchSection =  () => {
         <div className="container mx-auto mt-20 mb-20 overflow-hidden">   
             
             <div className="float-right"> 
-                <a href="/">
+              <Link href="/">
+                <a>
                     <Image src={startLaunch} width="420" height="140"></Image>
                 </a>
+              </Link>
             </div>
         </div>
     </section>

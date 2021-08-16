@@ -1,6 +1,6 @@
 import React from 'react';
 import startDefense from '../../public/images/ic_defend@2x.png'
-import Image from 'next/image'
+import Link from 'next/link'
 
 const ContactSection =  () => {
   return (
@@ -13,21 +13,25 @@ const ContactSection =  () => {
                       Have question about this Mars mission? Reach us on Discord at any time
                   </div>
                   <div className="mt-20">
-                      <a href="/" className="bg-spacey-pink px-6 py-2 text-spacey-white rounded">
+                      <Link href="/">
+                      <a className="bg-spacey-pink px-6 py-2 text-spacey-white rounded">
                           GET IN TOUCH
                       </a>
+                      </Link>
                   </div>
                </div>
                <div>
                   <h2 className="text-3xl font-medium mb-10"> Sign up</h2>
                   <div>
-                      You'll find us on Discord. You can also sign up to get the latest updates
+                      You&lsquo;ll find us on Discord. You can also sign up to get the latest updates
                   </div>
                   <div className="mt-20">
                       <input placeholder="email@domain.com" className="mr-2 pl-2 py-2 rounded bg-spacey-input-background" />
-                      <a href="/" className="bg-spacey-pink px-6 py-2 text-spacey-white rounded">
+                      <Link href="/">
+                      <a className="bg-spacey-pink px-6 py-2 text-spacey-white rounded">
                           SIGN UP
                       </a>
+                      </Link>
                   </div>
                </div>
            </div>

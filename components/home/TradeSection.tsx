@@ -3,6 +3,7 @@ import Image from 'next/image'
 import startBrowsing from '../../public/images/ic_startBROWSING@2x.png'
 import astroImage from '../../public/images/astro.jpg'
 import tradeImage from '../../public/images/ic_trade@2x.png'
+import Link from 'next/link'
 
 const TradeSection =  () => {
   return (
@@ -18,9 +19,11 @@ const TradeSection =  () => {
                   <div>Buy and sell LANDS, buildings, towers and ores in Space Y Marketplace</div>
                  </div>
                  <div className="mt-20">
+                   <Link href="/">
                      <a>
                          <Image src={startBrowsing} width="420" height="140"/>
                      </a>
+                     </Link>
                  </div>
              </div>
              <div className="flex-1">

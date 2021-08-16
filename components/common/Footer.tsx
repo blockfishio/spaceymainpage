@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaFacebookF} from "react-icons/fa"
-
+import Link from 'next/link'
 interface Props {
     mode: string
 }
@@ -41,10 +41,12 @@ const Footer = ({mode}:Props) => {
             <div className={"hidden md:flex flex-1 flex-grow " + (mode === 'dark' ? 'text-spacey-light-grey': '')}>
                 <ul className="flex flex-row space-x-4">
                 {navLinks.map(({ title, link }, id) => (
-                     <li>
-                        <a href={link} key={id} className="">
+                     <li  key={id}>
+                        <Link href={link}>
+                        <a className="">
                             <span>{title}</span>
                         </a>
+                        </Link>
                        </li>
                  ))}
                 </ul>
