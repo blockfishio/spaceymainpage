@@ -1,6 +1,13 @@
 import React, { useState, useRef } from 'react';
+import logo from '../../public/images/logo.png'
+import Image from 'next/image'
 
-const NavBar = () => {
+
+interface Props {
+    mode: string
+}
+
+const NavBar = ({mode}:Props) => {
     
     const navLinks = [
         {
@@ -11,7 +18,7 @@ const NavBar = () => {
             title: 'Info', 
             link: '/info'
         },
-        {
+        {   
             title: 'Dao', 
             link: '/dao'
         },
@@ -28,13 +35,18 @@ const NavBar = () => {
             link: '/freeticket'
         }
     ]
+
+    const backgroundMode = mode === 'dark' ? "bg-spacey-heavy" : ""
+
     return (
         <section>
-            <nav className="flex items-center justify-between px-5 py-2 fixed top-0 left-0  w-full  z-50  bg-spacey-heavy text-spacey-white">
+            <nav className={"flex items-center justify-between px-5 py-2 fixed top-0 left-0  w-full  z-50 text-spacey-white " + backgroundMode}>
                <div className="container mx-auto">
                <div className="flex-1 flex items-center font-robo uppercase font-medium text-base font-semibold">
                    <div className="flex-initial mr-4">
-                      <a href="">LOGO</a>
+                      <a href="/">
+                        <Image src={logo} quality="100" width="150" height="30"/>
+                      </a>
                    </div>
                     <div className="hidden md:flex flex-1 flex-grow">
                         <ul className="flex flex-row space-x-4">

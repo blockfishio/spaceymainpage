@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import NavBar from '../components/common/Navbar'
+import Header from '../components/common/Header'
 import Footer from '../components/common/Footer'
 import LaunchSection from '../components/home/LaunchSection'
 import ExploreSection from '../components/home/ExploreSection'
@@ -8,9 +9,12 @@ import ContactSection from '../components/home/ContactSection'
 
 const Home: NextPage = () => {
   return (
-    <div>
-      <NavBar />
+    <div className="text-spacey-white">
+      <Header title="Spacey Home Page" />
+      <div className="bg-hero-image overflow-hidden bg-cover">
+      <NavBar mode="light" />
       <LaunchSection />
+      </div>
       <ExploreSection />
       <DefenseSection />
       <ContactSection />

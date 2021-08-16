@@ -1,5 +1,5 @@
 import React from 'react';
-import {FaCalculator, FaFacebookF} from "react-icons/fa"
+import { FaFacebookF} from "react-icons/fa"
 
 interface Props {
     mode: string
