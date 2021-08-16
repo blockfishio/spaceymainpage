@@ -33,10 +33,10 @@ const Footer = ({mode}:Props) => {
     
     
     return (
-        <footer className="bg-gray-200 dark:bg-gray-1200 w-full flex-shrink-0 pt-6 pb-2">
+        <footer className="bg-gray-200 dark:bg-gray-1200 w-full flex-shrink-0 pt-6 pb-2 text-spacey-black">
           <div className="flex container m-auto">
             <div className={'flex-initial mr-4 ' +  (mode === 'dark' ? 'text-spacey-white' : '')} >
-                <a className="" href="">English</a>
+                <a className="font-medium" href="">English</a>
             </div>
             <div className={"hidden md:flex flex-1 flex-grow " + (mode === 'dark' ? 'text-spacey-light-grey': '')}>
                 <ul className="flex flex-row space-x-4">

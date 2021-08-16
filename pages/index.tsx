@@ -6,6 +6,7 @@ import LaunchSection from '../components/home/LaunchSection'
 import ExploreSection from '../components/home/ExploreSection'
 import DefenseSection from '../components/home/DefenseSection'
 import ContactSection from '../components/home/ContactSection'
+import TradeSection from '../components/home/TradeSection'
 
 const Home: NextPage = () => {
   return (
@@ -17,6 +18,7 @@ const Home: NextPage = () => {
       </div>
       <ExploreSection />
       <DefenseSection />
+      <TradeSection />
       <ContactSection />
      <Footer mode="light" />
     </div>

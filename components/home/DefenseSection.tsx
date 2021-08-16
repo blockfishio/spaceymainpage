@@ -1,13 +1,33 @@
 import React from 'react';
 import startDefense from '../../public/images/ic_defend@2x.png'
+import defenseButton from '../../public/images/ic_startDEFENSE@2x.png'
 import Image from 'next/image'
 
 const DefenseSection =  () => {
   return (
     <section>
-        <div className="container mx-auto">
-           <Image src={startDefense} alt="Start Defense" />
-            <div className="box-border h-32 w-32 p-4 border-4"></div>
+        <div className=" mx-auto mt-10">
+            <div className="flex flex-rows">
+              <div className="bg-defense-image min-h-full w-2/5 bg-cover">
+                 
+              </div>
+              <div className="bg-defense-right-background bg-cover items-center	my-10  -ml-40 flex-1 p-20" >
+                  <div>
+                      <Image src={startDefense} alt="Start Defense" width="420" height="60"/>
+                      <hr className="mt-2 w-40 text-spacey-underline bg-spacey-underline h-0.5"  />
+                  </div>
+                  <div className="mt-20 w-200">
+                      Use your strategies to build a Martian defense system 
+                      to effectively defend against enemy invasion
+                  </div>
+                 <div className="mt-20">
+                     <Image src={defenseButton} alt="Defense" width="420" height="140"/>
+                 </div>
+                 
+              </div>
+            </div>
+      
+            
         </div>
     </section>
 
