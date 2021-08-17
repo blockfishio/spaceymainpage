@@ -19,7 +19,8 @@ module.exports = {
       'spacey-black': '#000',
       'spacey-pink': '#ff2d54',
       'spacey-input-background': '#f1f1f1',
-      'spacey-sidemenu-background': '#21252e'
+      'spacey-sidemenu-background': '#21252e',
+      'spacey-orange-border': '#f87c6b'
     },
     fontFamily: {
       'robo': ['roboto', 'sans-serif', 'arial','helvetica','clean'], 
