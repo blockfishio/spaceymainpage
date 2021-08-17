@@ -3,8 +3,8 @@ import withLayout from '../../hocs/withLayout'
 
 const FreeTicket: NextPage = () => {
   return (
-    <div className="mt-20 container mx-auto">
-        <div className="flex-row flex">
+    <div className="flex-row flex">
+       <div className="mt-20 container mx-auto">
              <div>
                 <h1>
                     SPREAD THE WORD & CLAIM TOUR FREETIVKET
@@ -19,7 +19,7 @@ const FreeTicket: NextPage = () => {
                     </form>
                 </div>
              </div>
-             <div className="box-border h-32 w-32 p-4 border-4"></div>
+
         </div>
    
     </div>

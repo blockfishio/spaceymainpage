@@ -20,7 +20,8 @@ module.exports = {
       'spacey-pink': '#ff2d54',
       'spacey-input-background': '#f1f1f1',
       'spacey-sidemenu-background': '#21252e',
-      'spacey-orange-border': '#f87c6b'
+      'spacey-orange-border': '#f87c6b',
+      'spacey-grey': '#9e9e9e'
     },
     fontFamily: {
       'robo': ['roboto', 'sans-serif', 'arial','helvetica','clean'], 
