@@ -10,7 +10,7 @@ interface Props {
 const MainLayout = ({ children }: Props) => {
 
     return (
-        <div className="flex flex-col h-screen bg-spacey-heavy text-spacey-white">
+        <div className="flex flex-col min-h-screen bg-spacey-heavy text-spacey-white">
             <Header title='Spacey' />
             <NavBar mode="dark" />                
             <div className="pb-6 flex-1">
