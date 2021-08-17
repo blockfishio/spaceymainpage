@@ -47,7 +47,7 @@ const NavBar = ({mode}:Props) => {
                    <div className="flex-initial mr-4">
                     <Link href="/">
                       <a>
-                        <Image src={logo} quality="100" width="150" height="30"/>
+                        <Image src={logo} quality="100" width="200" height="50"/>
                       </a>
                     </Link>
                    </div>

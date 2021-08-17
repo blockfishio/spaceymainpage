@@ -18,7 +18,8 @@ module.exports = {
       'spacey-black-background': '#1a1a1a',
       'spacey-black': '#000',
       'spacey-pink': '#ff2d54',
-      'spacey-input-background': '#f1f1f1'
+      'spacey-input-background': '#f1f1f1',
+      'spacey-sidemenu-background': '#21252e'
     },
     fontFamily: {
       'robo': ['roboto', 'sans-serif', 'arial','helvetica','clean'], 
