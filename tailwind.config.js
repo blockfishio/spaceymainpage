@@ -7,7 +7,8 @@ module.exports = {
         'hero-image': "url(/images/home_section_1.jpg)",
         'explore-image': "url(/images/explore.jpg)",
         'defense-image': "url(/images/defense_bg.png)",
-        "defense-right-background": "url(/images/defend@2x.png)"
+        "defense-right-background": "url(/images/defend@2x.png)",
+        "astro-background": "url(/images/astro.jpg)"
       })
     },
     colors: {
@@ -21,7 +22,11 @@ module.exports = {
       'spacey-input-background': '#f1f1f1',
       'spacey-sidemenu-background': '#21252e',
       'spacey-orange-border': '#f87c6b',
-      'spacey-grey': '#9e9e9e'
+      'spacey-grey': '#9e9e9e',
+      'spacey-form-background': '#0b1926',
+      'spacey-form-input-background': '#1d3149',
+      'spacey-form-text': '#a7b0b9',
+      'spacey-form-border': '#1c3049'
     },
     fontFamily: {
       'robo': ['roboto', 'sans-serif', 'arial','helvetica','clean'], 
