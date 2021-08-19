@@ -46,12 +46,15 @@ const NavBar = ({mode}:Props) => {
 
     return (
         <section>
+            <div ref={menuNode}>
               {isOpen && (
                <div className="flex bg-spacey-white  py-2 flex-col  justify-center md:hidden  fixed  top-0 left-0 w-full z-50">
                          <div>
                             <div className="flex flex-row items-center">
                                 <div>
+                                <Link href="/">
                                 <Image src={mobileLogo}  width="200" height="45" />
+                                </Link>
                                 </div>
                                 <div className="text-spacey-mobile-grey flex items-center">
                                 <FaCaretUp className="cursor-pointer text-2xl" > open</FaCaretUp>
@@ -59,7 +62,7 @@ const NavBar = ({mode}:Props) => {
                             </div>
                           <ul className="flex flex-col text-spacey-mobile-grey-heavy font-robo uppercase text-base font-semibold ">
                           {navLinks.map(({ title, link }, id) => (
-                            <li key={id} className="p-3 hover:bg-spacey-mobile-background">
+                            <li key={id} className="p-3 hover:bg-spacey-mobile-background active:bg-spacey-mobile-background">
                                 <Link href={link}>
                                 <a className="">
                                  <span>{title}</span>
@@ -72,6 +75,7 @@ const NavBar = ({mode}:Props) => {
               </div>
                     
              )}
+        </div>
             <nav className={"flex items-center justify-between px-5 py-2 fixed top-0 left-0  w-full  z-40 text-spacey-white " + backgroundMode}>
                <div className="container mx-auto">
                <div className="flex-1 flex items-center font-robo uppercase text-base font-semibold ">
@@ -82,7 +86,7 @@ const NavBar = ({mode}:Props) => {
                       </a>
                     </Link>
                    </div>
-                   <div ref={menuNode} className="md:hidden">
+                   <div className="md:hidden">
                        {!isOpen ? (
                         <div onClick={() => setIsOpen(true) }>
                             <FaCaretDown className="cursor-pointer text-2xl"
