@@ -115,7 +115,7 @@ const NavBar = ({mode}:Props) => {
                         </ul>
                     </div>
                     <div className="space-x-4 flex-1">
-                       <ul className="flex flex-row float-right">
+                       <ul className="flex flex-row float-right space-x-4">
                            <li className="hidden md:block">
                            <Link href="#" >
                              <a>Join Our Discord</a>
