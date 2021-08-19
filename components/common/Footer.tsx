@@ -1,5 +1,6 @@
 import React from 'react';
-import { FaFacebookF} from "react-icons/fa"
+import { FaFacebookF } from "react-icons/fa"
+
 import Link from 'next/link'
 interface Props {
     mode: string

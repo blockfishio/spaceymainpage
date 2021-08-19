@@ -26,7 +26,11 @@ module.exports = {
       'spacey-form-background': '#0b1926',
       'spacey-form-input-background': '#1d3149',
       'spacey-form-text': '#a7b0b9',
-      'spacey-form-border': '#1c3049'
+      'spacey-form-border': '#1c3049',
+      'spacey-mobile-grey': '#9b9b9b',
+      'spacey-mobile-background': '#e6e6e6',
+      'spacey-mobile-grey-heavy':'#5a5a5a'
+
     },
     fontFamily: {
       'robo': ['roboto', 'sans-serif', 'arial','helvetica','clean'], 
