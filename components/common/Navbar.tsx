@@ -57,7 +57,7 @@ const NavBar = ({mode}:Props) => {
                                 </Link>
                                 </div>
                                 <div className="text-spacey-mobile-grey flex items-center">
-                                <FaCaretUp className="cursor-pointer text-2xl" > open</FaCaretUp>
+                                <FaCaretUp className="cursor-pointer text-2xl" onClick={() => setIsOpen(false) } > open</FaCaretUp>
                                 </div>
                             </div>
                           <ul className="flex flex-col text-spacey-mobile-grey-heavy font-robo uppercase text-base font-semibold ">
