@@ -33,7 +33,9 @@ module.exports = {
       "spacey-text-header": '#f9f9f9',
       "spacey-text-subheader": '#cccbc9',
       "spacey-vote-button": '#ad693a',
-      "spacey-learnmore-button": '#575757'
+      "spacey-learnmore-button": '#575757',
+      "spacey-dao-tab-seperator": '#595959',
+      "spacey-dao-tab-active": '#bd8e6a'
     },
     fontFamily: {
       'robo': ['roboto', 'sans-serif', 'arial','helvetica','clean'], 

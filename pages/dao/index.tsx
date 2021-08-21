@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import withLayout from '../../hocs/withLayout'
 import Image from 'next/image'
+import Link from 'next/link'
 import daoImage1 from '../../public/images/dao_image1.png'
 import daoImage2 from '../../public/images/dao_image2.png'
 import daoImage3 from '../../public/images/dao_image3.png'
@@ -14,12 +15,16 @@ const Dao: NextPage = () => {
                 <h1 className="font-bankgothic text-6xl mt-20 text-spacey-text-header">SpACE Y 2025 DAO</h1>
                 <h3 className="pt-3 text-xl text-spacey-text-subheader tracking-wide">Dovern the Mars by yourselfs</h3>
                 <div className="flex flex-row items-center my-20">
-                    <a className="bg-spacey-vote-button px-4 py-3 rounded font-semibold mr-10" href="">
+                    <Link href="/dao/proposal">
+                    <a className="bg-spacey-vote-button px-4 py-3 rounded font-semibold mr-10" >
                         START VOTING
                     </a>
+                    </Link>
+                    <Link href="/dao">
                     <a className="bg-spacey-learnmore-button  px-4 py-3 rounded font-semibold" href="">
                         LEARN MORE
                     </a>
+                    </Link>
                 </div>
             </div>
         </div>

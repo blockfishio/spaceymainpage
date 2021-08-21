@@ -1,8 +1,14 @@
 import type { NextPage } from 'next'
 import withLayout from '../../hocs/withLayout'
+import DaoTab from '../../components/dao/tab'
 
 const DaoVoting: NextPage = () => {
   return (
+    <div>
+        <div>
+           <DaoTab active="voting" />
+        </div>
+
     <div className="container mx-auto mt-20">
      <div className="flex flex-row">
         <div>
@@ -73,6 +79,7 @@ const DaoVoting: NextPage = () => {
              </div>
          </div>
      </div>
+    </div>
     </div>
   )
 }
