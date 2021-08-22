@@ -38,7 +38,11 @@ module.exports = {
       "spacey-dao-tab-active": '#bd8e6a',
       "spacey-dao-line-breaker": "#20222e",
       "spacey-dao-grey": "#747474",
-      "spacey-dao-content": "#121d2b"
+      "spacey-dao-content": "#121d2b",
+      "spacey-dao-content-bg": "#121e2c",
+      "spacey-dao-content-bottom": '#0d1522',
+      'spacey-dao-content-text': '#c6c6c8',
+      'spacey-dao-content-dashline': '#34445b'
     },
     fontFamily: {
       'robo': ['roboto', 'sans-serif', 'arial','helvetica','clean'], 

@@ -4,10 +4,10 @@ import withLayout from '../../hocs/withLayout'
 import DaoTab from '../../components/dao/tab'
 import Link from 'next/link'
 import votingPowerIcon from "../../public/images/ic_votingpower@2x.png"
-import arrowDownIcon from "../../public/images/ic_drop-down@2x.png"
+import arrowDownIcon from "../../public/images/ic_drop_down@2x.png"
 import totalIcon from "../../public/images/ic_total@2x.png"
 import estatesIcon from "../../public/images/ic_estates@2x.png"
-import landIcon from "../../public/images/ic_land@2x.png"
+import landIcon from "../../public/images/ic_lands@2x.png"
 import manaIcon from "../../public/images/ic_mana@2x.png"
 
 const DaoProposal: NextPage = () => {
@@ -17,7 +17,6 @@ const DaoProposal: NextPage = () => {
            <DaoTab active="proposal" />
         </div>
         <div className="gradientBackgroundFull my-5  px-5" >
-    
             <div className=" container mx-auto grid grid-cols-3 uppercase mb-10 py-8 gap-x-10">
                 <div className="flex flex-row gap-x-3 items-center">
                     <div className="pt-1" >
