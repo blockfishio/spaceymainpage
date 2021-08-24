@@ -8,7 +8,8 @@ module.exports = {
         'explore-image': "url(/images/explore.jpg)",
         'defense-image': "url(/images/defense_bg.png)",
         "defense-right-background": "url(/images/defend@2x.png)",
-        "astro-background": "url(/images/astro.jpg)"
+        "astro-background": "url(/images/astro.jpg)",
+        "login-background": "url(/images/ic_loginbasemap.png)"
       })
     },
     colors: {
@@ -42,7 +43,11 @@ module.exports = {
       "spacey-dao-content-bg": "#121e2c",
       "spacey-dao-content-bottom": '#0d1522',
       'spacey-dao-content-text': '#c6c6c8',
-      'spacey-dao-content-dashline': '#34445b'
+      'spacey-dao-content-dashline': '#34445b',
+      'spacey-login-close': '#3d3b47',
+      'spacey-login-text-heavy': '#bdbbc7',
+      'spacey-login-text-light': '#777387'
+
     },
     fontFamily: {
       'robo': ['roboto', 'sans-serif', 'arial','helvetica','clean'], 

@@ -5,6 +5,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import {FaCaretDown, FaCaretUp} from "react-icons/fa"
 import { useOnClickOutSide } from '../../hooks/useOnClickOutside';
+import LoginModal from '../../components/common/Login';
 
 interface Props {
     mode: string
@@ -40,6 +41,7 @@ const NavBar = ({mode}:Props) => {
     ]
 
     const [isOpen, setIsOpen] = useState(false)
+    const [isLoginOpen, setLoginOpen] = useState(false)
     const backgroundMode = mode === 'dark' ? "bg-spacey-heavy" : ""
     const menuNode = useRef<HTMLDivElement>(null);
     useOnClickOutSide(menuNode, () => setIsOpen(false));
@@ -122,9 +124,10 @@ const NavBar = ({mode}:Props) => {
                              </Link>
                            </li>
                            <li>
-                           <Link href="#">
-                             <a className="border-b-2 border-spacey-orange-border pb-1">Get Started</a>
-                          </Link>
+                              <a className="border-b-2 border-spacey-orange-border pb-1 cursor-pointer"  onClick={(event) => {setLoginOpen(true); console.log(isLoginOpen)}}>
+                                Get Started
+                                </a>
+                        
                            </li>
                        </ul>
                      
@@ -133,7 +136,7 @@ const NavBar = ({mode}:Props) => {
                 </div>
               </div>
             </nav>
-
+            <LoginModal open={isLoginOpen} handleOpen={setLoginOpen} />
         </section>
     );
 };
