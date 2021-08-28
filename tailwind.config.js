@@ -47,6 +47,7 @@ module.exports = {
       "spacey-dao-content-bottom": '#0d1522',
       'spacey-dao-content-text': '#c6c6c8',
       'spacey-dao-content-dashline': '#34445b',
+      'spacey-dao-blue-bar': '#0ae5ff',
       'spacey-login-close': '#3d3b47',
       'spacey-login-text-heavy': '#bdbbc7',
       'spacey-login-text-light': '#777387'

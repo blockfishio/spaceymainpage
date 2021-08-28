@@ -13,11 +13,12 @@ import manaIcon from "../../public/images/ic_mana@2x.png"
 const DaoProposal: NextPage = () => {
   return (
     <div>
-        <div>
+        <div className="">
            <DaoTab active="proposal" />
         </div>
+
         <div className="gradientBackgroundFull my-5  px-5" >
-            <div className=" container mx-auto grid grid-cols-3 uppercase mb-10 py-8 gap-x-10">
+            <div className=" container mx-auto grid grid-cols-1 md:grid-cols-3 uppercase mb-10 py-8 gap-x-10">
                 <div className="flex flex-row gap-x-3 items-center">
                     <div className="pt-1" >
                         <Image src={votingPowerIcon} width="20" height="20"  className="align-middle" />
@@ -26,7 +27,7 @@ const DaoProposal: NextPage = () => {
                            Voting Power
                     </div>
                 </div>
-                <div className="col-span-2">
+                <div className="col-span-2 hidden md:block">
                     <div className="flex flex-row justify-between">
                         <div>0 Proposals</div>
                         <div className="flex flex-row text-spacey-vote-button">
@@ -55,17 +56,17 @@ const DaoProposal: NextPage = () => {
             </div>
         </div>
         <div>
-        <div className="container mx-auto grid grid-cols-3 uppercase gap-x-10">
+        <div className="container mx-auto grid grid-cols-1 md:grid-cols-3  uppercase gap-x-10">
             <div>
-                <div>
+                <div className="ml-5 md:ml-0">
                    <Image src={totalIcon} width="15" height="15" />
                    <span  className="ml-2 align-text-bottom mr-2">TOTAL</span>
                 </div>
 
-                <div className="pl-5">
+                <div className="px-5">
                     <div className="py-3 my-2">
                         <span className="text-xl">0 
-                           <span className="bg-spacey-vote-button px-2 rounded font-semibold text-spacey-white ml-4">VP</span>
+                           <span className="bg-spacey-vote-button px-2 rounded font-semibold text-spacey-white ml-4 float-right ">VP</span>
                         </span>
                     </div>
                     <div className="rounded border-2 w-full border-spacey-dao-line-breaker mb-2">
@@ -115,10 +116,41 @@ const DaoProposal: NextPage = () => {
                      </div>
                   </div>
             </div>
-            <div className="col-span-2">
-                <div className="px-10 py-20 bg-spacey-dao-content w-full">
+            <div className="md:col-span-2">
+                <div className="md:hidden flex flex-col justify-between mx-5 mt-5">
+                        <div className="flex flex-row justify-between w-full">
+                            <div>
+                                0 Proposals
+                            </div>
+                            <div>
+                                <Link href="#">
+                                   <a>
+                                    <span className="bg-spacey-vote-button px-4 py-2 rounded font-semibold text-spacey-white text-sm">New Proposal</span>
+                                    </a>
+                                </Link>
+                            </div>
+                        </div>
+                        <div className="flex flex-row justify-between text-spacey-vote-button mt-5 mb-10">
+                            <div className="mr-5">
+                                <span className="align-text-bottom mr-2">Relewant Outcoms
+                                </span>
+                                <Image src={arrowDownIcon} width="15" height="15"/>
+                                </div>
+                            <div>
+                            <div className="mr-5">
+                                <span className="align-text-bottom mr-2"> Categories
+                                </span>
+                                <Image src={arrowDownIcon} width="15" height="15"/>
+                                </div>
+                             </div> 
+                       
+                       </div>
+                    </div>
+
+                <div className="px-10 py-20 bg-spacey-dao-content md:w-full m-5 md:m-0">
                     Wrapped Tokens
                 </div>
+                
             </div>
         </div>
        </div>
