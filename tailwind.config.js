@@ -5,10 +5,13 @@ module.exports = {
     extend: {
       backgroundImage: theme => ({
         'hero-image': "url(/images/home_section_1.jpg)",
+        'hero-image-mobile': "url(/images/home_section_1_mobile.jpg)",
         'explore-image': "url(/images/explore.jpg)",
         'defense-image': "url(/images/defense_bg.png)",
+        'defense-image-mobile': "url(/images/defense_bg_mobile.png)",
         "defense-right-background": "url(/images/defend@2x.png)",
         "astro-background": "url(/images/astro.jpg)",
+        "astro-background-mobile": "url(/images/astro_mobile.jpg)",
         "login-background": "url(/images/ic_loginbasemap.png)"
       })
     },

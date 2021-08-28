@@ -53,7 +53,7 @@ const NavBar = ({mode}:Props) => {
                <div className="flex bg-spacey-white  py-2 flex-col  justify-center md:hidden  fixed  top-0 left-0 w-full z-50">
                          <div>
                             <div className="flex flex-row items-center">
-                                <div>
+                                <div className="">
                                 <Link href="/">
                                 <Image src={mobileLogo}  width="200" height="45" />
                                 </Link>
@@ -80,8 +80,8 @@ const NavBar = ({mode}:Props) => {
         </div>
             <nav className={"flex items-center justify-between px-5 py-2 fixed top-0 left-0  w-full  z-40 text-spacey-white " + backgroundMode}>
                <div className="container mx-auto">
-               <div className="flex-1 flex items-center font-robo uppercase text-base font-semibold ">
-                   <div className="flex-initial lg:mr-4">
+               <div className="flex-1 flex items-center font-robo uppercase md:text-sm lg:text-base font-semibold ">
+                   <div className="flex-initial lg:mr-4 -ml-5">
                     <Link href="/">
                       <a>
                         <Image src={logo} quality="100" width="200" height="50"/>
@@ -116,9 +116,9 @@ const NavBar = ({mode}:Props) => {
                         ))}
                         </ul>
                     </div>
-                    <div className="space-x-4 flex-1">
+                    <div className="space-x-4 flex-1 md:flex-none">
                        <ul className="flex flex-row float-right space-x-4">
-                           <li className="hidden md:block">
+                           <li className="hidden lg:block">
                            <Link href="#" >
                              <a>Join Our Discord</a>
                              </Link>

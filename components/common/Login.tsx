@@ -16,21 +16,21 @@ export default function Login( {open, handleOpen} : Props) {
       {open ? (
         <>
           <div
-            className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"
+            className="justify-center w-12/12 items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"
           >
-            <div className="relative w-auto my-6 mx-auto max-w-3xl bg-login-background bg-cover rounded-xl">
+            <div className="relative w-11/12 md:w-auto  my-6 mx-auto max-w-3xl bg-login-background bg-cover rounded-xl">
               {/*content*/}
               <div className="border-0  relative flex flex-col w-full outline-none focus:outline-none">
                 {/*header*/}
                 <div className="flex items-start justify-between p-5 relative">
-                  <h3 className="text-3xl font-semibold mx-auto">
+                  <h3 className="text-3xl font-semibold mx-auto text-center md:text-left">
                     Sign in or Create Account
                   </h3>
                   <button
                     className="p-1 ml-auto bg-transparent border-0"
                     onClick={() => handleOpen(false)}
                   >
-                    <span className=" text-4xl absolute" style={{top: '-16px', right: '-16px'}}>
+                    <span className="text-4xl absolute" style={{top: '-16px', right: '-16px'}}>
                       <MdClose className="bg-spacey-login-close rounded-full" />
                     </span>
                   </button>
@@ -45,7 +45,7 @@ export default function Login( {open, handleOpen} : Props) {
                         <div className="mx-auto text-spacey-login-text-heavy">
                           MetaMask
                         </div>
-                        <div className="mx-auto text-spacey-login-text-light mt-5">
+                        <div className="mx-auto text-spacey-login-text-light mt-5 text-center">
                           Using your browser account
                         </div>
                       </div>
@@ -56,7 +56,7 @@ export default function Login( {open, handleOpen} : Props) {
                           <div className="mx-auto  text-spacey-login-text-heavy">
                             Wax
                           </div>
-                          <div className="mx-auto text-spacey-login-text-light mt-5">
+                          <div className="mx-auto text-spacey-login-text-light mt-5 text-center">
                             Using your email account
                           </div>
                       </div>
