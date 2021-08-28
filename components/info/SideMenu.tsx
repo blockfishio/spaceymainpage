@@ -11,7 +11,7 @@ const SideMenu = ({active}:Props) => {
     const activeTab = active
     const activeClass = "bg-spacey-sidemenu-background rounded text-spacey-white"
     return (
-      <div>
+      <div className="hidden md:block">
         <ul className="flex flex-col gap-2 text-xl mr-20">
             <li className={"pl-2 py-1 " + (activeTab === 'home' ? activeClass : "")}>
                <Link href="/info">

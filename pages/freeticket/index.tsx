@@ -11,9 +11,9 @@ const FreeTicket: NextPage = () => {
   const emailBox = useRef<HTMLInputElement>(null)
 
   return (
-    <div className="flex-row flex mt-32 gap-x-6">
+    <div className="flex flex-col md:flex-row mt-32 gap-x-6">
        <div className="flex flex-col items-center">
-             <div className="pl-10 mb-5 text-3xl">
+             <div className="pl-10 mb-5 hidden md:block text-3xl">
                 <h1 className="font-bankgothic flex-grow-0">
                     SPREAD THE WORD &
                 </h1>
@@ -21,13 +21,26 @@ const FreeTicket: NextPage = () => {
                      CLAIM TOUR FREETIVKET
                 </h1>
               </div>
+
+              <div className=" mb-10 md:hidden text-2xl text-center">
+                <h1 className="font-bankgothic flex-grow-0">
+                    SPREAD THE WORD 
+                </h1>
+                <h1>
+                    &
+                </h1>
+                <h1 className="font-bankgothic flex-grow-0">
+                     CLAIM TOUR FREETIVKET
+                </h1>
+              </div>
+
               <div className="gradientBackground2 p-4 w-full">
                   <span className="opacity-50"> 
                      This is just a preview of the NFT Tickets that can be purchased
                 </span>
               </div>
                <div className="mt-10 ">
-                   <div className="font-bankgothic bg-spacey-form-background p-10 overflow-hidden text-xl">
+                   <div className="font-bankgothic md:bg-spacey-form-background p-10 overflow-hidden text-xl">
                        
                         <div className="mb-3"> 
                            <input ref={inputBox} placeholder="NAME" className="rounded pl-4 py-2 bg-spacey-form-input-background text-spacey-form-text"/>
