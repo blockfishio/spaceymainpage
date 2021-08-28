@@ -47,7 +47,7 @@ const Canvas = ({title}: Props) => {
 
     return (
         <div className="mx-auto">
-           <canvas ref={canvasObj} className="w-full md:w-4/5 mx-auto" />
+           <canvas ref={canvasObj} className="w-full mx-auto" />
         </div>
     )
 }
