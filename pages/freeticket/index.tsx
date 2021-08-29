@@ -40,7 +40,7 @@ const FreeTicket: NextPage = () => {
                 </span>
               </div>
                <div className="mt-10 ">
-                   <div className="font-bankgothic md:bg-spacey-form-background pb-10 overflow-hidden text-xl">
+                   <div className="font-bankgothic md:bg-spacey-form-background pb-10 overflow-hidden text-xl md:p-10">
                        
                         <div className="mb-3"> 
                            <input ref={inputBox} placeholder="NAME" className="rounded pl-4 py-2 bg-spacey-form-input-background text-spacey-form-text"/>
@@ -49,7 +49,7 @@ const FreeTicket: NextPage = () => {
                             <input placeholder="EMAIL" ref={emailBox} className="rounded pl-4 py-2 bg-spacey-form-input-background text-spacey-form-text"/>
                         </div>
                         <div >  
-                           <button className=" rounded w-full pl-4 py-2 border-spacey-form-border border-2 text-spacey-form-text"
+                           <button className=" rounded w-full py-2 border-spacey-form-border border-2 text-spacey-form-text"
                                    onClick={() => {
                                        if(inputBox.current){
                                         setName(inputBox.current.value)
