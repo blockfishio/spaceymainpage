@@ -23,7 +23,7 @@ const DaoVoting: NextPage = () => {
                         <span className="align-top ml-3">Total Voting Power
                         </span>
                     </div>
-                    <div className="mt-2 ml-8">
+                    <div className="mt-2 ml-4">
                         <span className="text-xl">0 
                            <span className="bg-spacey-vote-button px-2 rounded font-semibold text-spacey-white ml-4">VP</span>
                         </span>
@@ -31,13 +31,13 @@ const DaoVoting: NextPage = () => {
                 </div>
             </div>
         </div>
-        <div>
-        <div className="container mx-auto grid grild-cols-1 md:grid-cols-3 uppercase gap-y-10 gap-x-10 items-stretch p-5 md:p-0">
+        <div className="mx-5">
+        <div className="md:container md:mx-auto grid grild-cols-1 md:grid-cols-3 uppercase gap-y-10 md:gap-x-10">
             {/*!-- Section 1 */}
             <div className="">
                  <div className="flex flex-col">
                      <div className="flex flex-row justify-between mb-5">
-                        <div className="ml-8">
+                        <div className="ml-4">
                             MANA
                         </div>
                         <div >
@@ -47,11 +47,11 @@ const DaoVoting: NextPage = () => {
                  
                     <div className="flex flex-col bg-spacey-dao-content-bg rounded pt-6">
                          <div className="flex flex-row md:flex-col justify-between">
-                            <div className="text-lg mb-5 px-8 ">
+                            <div className="text-lg mb-5 px-4 md:px-8">
                                 MANA
                                 <hr className="w-10 bg-spacey-vote-button h-0.5 text-spacey-vote-button" />
                             </div>
-                            <div className="flex flex-row justify-between pb-5 pr-8 md:px-8 flex-1 items-center">
+                            <div className="flex flex-row justify-between pb-5 pr-2 md:px-8 flex-1 items-center">
                                 <div className="text-spacey-dao-content-text ">WRAPPED MANA</div>
                                 <div>0 <span className="ml-2 border px-2 border-spacey-dao-grey text-spacey-dao-grey">VP</span></div> 
                             </div>
@@ -59,7 +59,7 @@ const DaoVoting: NextPage = () => {
                          <div>
                              <Image src={dottedLine} />
                          </div>
-                         <div className="mt-8 px-8 h-32 flex flex-row md:flex-col justify-between md:justify-start">
+                         <div className="mt-8 px-4 md:px-8 h-32 flex flex-row md:flex-col justify-between md:justify-start">
                              <div className="text-spacey-dao-content-text ">
                                  AVAILABLE TO WRAP
                                 
@@ -92,7 +92,7 @@ const DaoVoting: NextPage = () => {
             <div className="">
             <div className="flex flex-col">
                      <div className="flex flex-row justify-between mb-5">
-                     <div className="ml-8">
+                     <div className="ml-4">
                             MANA
                         </div>
                         <div className="mb-5">
@@ -102,11 +102,11 @@ const DaoVoting: NextPage = () => {
                  
                     <div className="flex flex-col bg-spacey-dao-content-bg rounded pt-6">
                         <div className="flex flex-row md:flex-col justify-between">
-                            <div className="text-lg mb-5 px-8 ">
+                            <div className="text-lg mb-5 px-4 md:px-8">
                                 LAND
                                 <hr className="w-10 bg-spacey-vote-button h-0.5 text-spacey-vote-button" />
                             </div>
-                            <div className="flex flex-row justify-between pb-5 px-8 flex-1  flex-1 items-center">
+                            <div className="flex flex-row justify-between pb-5 pr-2  md:px-8 flex-1  flex-1 items-center">
                                 <div className="text-spacey-dao-content-text ">BALANCE</div>
                                 <div>0 Lands</div> 
                             </div>
@@ -114,7 +114,7 @@ const DaoVoting: NextPage = () => {
                          <div>
                              <Image src={dottedLine} />
                          </div>
-                         <div className="mt-8 px-8 h-32 flex flex-row md:flex-col justify-between md:justify-start">
+                         <div className="mt-8 px-4 md:px-8 h-32 flex flex-row md:flex-col justify-between md:justify-start">
                              <div className="text-spacey-dao-content-text ">
                                  Total Voting Power
                                 
@@ -156,11 +156,11 @@ const DaoVoting: NextPage = () => {
                  
                     <div className="flex flex-col bg-spacey-dao-content-bg rounded pt-6">
                        <div className="flex flex-row md:flex-col justify-between">
-                            <div className="text-lg mb-5 px-8 ">
+                            <div className="text-lg mb-5 px-4  md:px-8">
                                 ESTATE
                                 <hr className="w-10 bg-spacey-vote-button h-0.5 text-spacey-vote-button" />
                             </div>
-                            <div className="flex flex-row justify-between pb-5 px-8 flex-1 items-center">
+                            <div className="flex flex-row justify-between pb-5 pr-2 md:px-8 flex-1 items-center">
                                 <div className="text-spacey-dao-content-text ">BALANCE</div>
                                 <div>0 <span className="ml-2 border px-2 border-spacey-dao-grey text-spacey-dao-grey">ESTATES</span></div> 
                             </div>
@@ -168,7 +168,7 @@ const DaoVoting: NextPage = () => {
                          <div>
                              <Image src={dottedLine} />
                          </div>
-                         <div className="mt-8 px-8 h-32">
+                         <div className="mt-8 px-4 md:px-8 h-32">
                              <div className="text-spacey-dao-content-text flex flex-row justify-between ">
                                 <div>TOTAL LANDS</div> 
                                 <div className="text-spacey-white">LANDS</div>

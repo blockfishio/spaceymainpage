@@ -40,7 +40,7 @@ const FreeTicket: NextPage = () => {
                 </span>
               </div>
                <div className="mt-10 ">
-                   <div className="font-bankgothic md:bg-spacey-form-background p-10 overflow-hidden text-xl">
+                   <div className="font-bankgothic md:bg-spacey-form-background pb-10 overflow-hidden text-xl">
                        
                         <div className="mb-3"> 
                            <input ref={inputBox} placeholder="NAME" className="rounded pl-4 py-2 bg-spacey-form-input-background text-spacey-form-text"/>

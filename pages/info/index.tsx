@@ -78,15 +78,15 @@ const Info: NextPage = () => {
       </div>
 
         {/** mobile version  */}
-        <div className="flex flex-col md:hidden gap-y-10 justify-center mt-20 px-10">
-           <div className="font-bankgothic text-4xl text-center tracking-wide">
+        <div className="flex flex-col md:hidden gap-y-10 justify-center mt-20 ">
+           <div className="font-bankgothic text-3xl text-center tracking-wide">
               SPACEY 2025 INFORMATION 
            </div>
-           <div className="opacity-90 text-center px-10">
+           <div className="opacity-90 text-center px-5">
                 Find help about the various topics in each of these sections
            </div>
            <div>
-             <div className="grid grid-cols-2 gap-5">
+             <div className="grid grid-cols-2 gap-5 px-5">
                <div >
                  <Link href="/info">
                   <Image className="rounded-xl" src={infoImage1} layout="responsive" />
@@ -103,7 +103,7 @@ const Info: NextPage = () => {
                   <div  className="opacity-70 text-sm">Read interesting stories behind this game.</div>
                </div>
              </div>
-             <div className="grid grid-cols-2 mt-10  gap-5">
+             <div className="grid grid-cols-2 mt-10  gap-5 px-5">
               <div>
               <Link href="/info/build">
                  <Image className="rounded-xl" src={infoImage3} layout="responsive"/>

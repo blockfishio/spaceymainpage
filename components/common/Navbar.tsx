@@ -78,7 +78,7 @@ const NavBar = ({mode}:Props) => {
                     
              )}
         </div>
-            <nav className={"flex items-center justify-between px-5 py-2 fixed top-0 left-0  w-full  z-40 text-spacey-white " + backgroundMode}>
+            <nav className={"flex items-center justify-between px-5 fixed top-0 left-0  w-full  z-40 text-spacey-white " + backgroundMode}>
                <div className="container mx-auto">
                <div className="flex-1 flex items-center font-robo uppercase md:text-sm lg:text-base font-semibold ">
                    <div className="flex-initial lg:mr-4 -ml-5">
@@ -124,8 +124,8 @@ const NavBar = ({mode}:Props) => {
                              </Link>
                            </li>
                            <li>
-                              <a className="border-b-2 border-spacey-orange-border pb-1 cursor-pointer"  onClick={(event) => {setLoginOpen(true); console.log(isLoginOpen)}}>
-                                Get Started
+                              <a className="border-b-2 border-spacey-orange-border pb-1 cursor-pointer text-sm md:text-base"  onClick={(event) => {setLoginOpen(true); console.log(isLoginOpen)}}>
+                                Login
                                 </a>
                         
                            </li>
