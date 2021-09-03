@@ -25,8 +25,8 @@ const LaunchSection =  () => {
                 </div>
             </div>
         </div>
-        <div className="gradientBackground p-10  mt-20">
-            <div className="container mx-auto ">
+        <div className="gradientBackground md:p-10 py-10 mt-20">
+            <div className="md:container mx-auto ">
                 <div className="flex flex-rows justify-center">
                     <div className="w-11/12">
                         <div className="w-96">

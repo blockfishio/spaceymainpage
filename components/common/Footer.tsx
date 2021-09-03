@@ -66,7 +66,7 @@ const Footer = ({mode}:Props) => {
                 </ul>
             </div>
             <div className={"flex-initial flex items-center space-x-4 mx-auto " + (mode === 'dark' ? 'text-spacey-light-grey': '')}>
-            <div className="height-2 cursor-pointer" >
+            <div className="height-2 cursor-pointer ml-2 md:ml-0" >
                     <Link href="https://discord.com/invite/cUeNS8UzGW">
                           <FaDiscord />
                     </Link>
@@ -92,7 +92,7 @@ const Footer = ({mode}:Props) => {
                           <FaFacebookF />
                     </Link>
                 </div>
-                <div className=" height-2 align-text-top"><span>@2021 space2025.com</span></div>
+                <div className=" height-2 align-text-top flex-grow-0"><span>@2021 space2025.com</span></div>
             </div>
           </div>
         </footer>
