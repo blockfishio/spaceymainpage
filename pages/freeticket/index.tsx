@@ -11,9 +11,9 @@ const FreeTicket: NextPage = () => {
   const emailBox = useRef<HTMLInputElement>(null)
 
   return (
-    <div className="flex flex-col md:flex-row mt-32 gap-x-6">
+    <div className="flex flex-col md:flex-row mt-32 gap-x-6 container mx-auto">
        <div className="flex flex-col items-center">
-             <div className="pl-10 mb-5 hidden md:block text-3xl">
+             <div className=" mb-5 hidden md:block text-3xl">
                 <h1 className="font-bankgothic flex-grow-0">
                     SPREAD THE WORD &
                 </h1>

@@ -16,27 +16,33 @@ const NavBar = ({mode}:Props) => {
     const navLinks = [
         {
             title: 'Market', 
-            link: '/market'
+            link: '/market', 
+            link_type: ''
         },
         {
             title: 'Info', 
-            link: '/info'
+            link: '/info',
+            link_type: ''
         },
         {   
             title: 'Dao', 
-            link: '/dao'
+            link: '/dao',
+            link_type: ''
         },
         {
             title: 'Get Spay', 
-            link: '/getspay'
+            link: '/getspay',
+            link_type: ''
         },
         {
             title: 'Community',
-            link: '/community'
+            link: 'https://discord.com/invite/cUeNS8UzGW',
+            link_type: 'external'
         },
         {
             title: 'Free Ticket',
-            link: '/freeticket'
+            link: '/freeticket',
+            link_type: ''
         }
     ]
 
@@ -55,7 +61,7 @@ const NavBar = ({mode}:Props) => {
                             <div className="flex flex-row items-center">
                                 <div className="">
                                 <Link href="/">
-                                <Image src={mobileLogo}  width="200" height="45" />
+                                 <a><Image src={mobileLogo}  width="200" height="45" /></a>
                                 </Link>
                                 </div>
                                 <div className="text-spacey-mobile-grey flex items-center">
@@ -63,10 +69,11 @@ const NavBar = ({mode}:Props) => {
                                 </div>
                             </div>
                           <ul className="flex flex-col text-spacey-mobile-grey-heavy font-robo uppercase text-base font-semibold ">
-                          {navLinks.map(({ title, link }, id) => (
+                          {navLinks.map(({ title, link, link_type }, id) => (
                             <li key={id} className="p-3 hover:bg-spacey-mobile-background active:bg-spacey-mobile-background">
-                                <Link href={link}>
-                                <a className="">
+                                
+                                <Link href={link} >
+                                <a className="" target={link_type}>
                                  <span>{title}</span>
                                  </a>
                                 </Link>
@@ -104,10 +111,10 @@ const NavBar = ({mode}:Props) => {
             
                     <div className="hidden md:flex flex-1 flex-grow">
                         <ul className="flex flex-row space-x-4">
-                        {navLinks.map(({ title, link }, id) => (
+                        {navLinks.map(({ title, link, link_type }, id) => (
                             <li key={id} >
                                 <Link href={link}>
-                                <a className="">
+                                <a className="" target={link_type}>
                                  <span>{title}</span>
                                  </a>
                                 </Link>
@@ -119,8 +126,8 @@ const NavBar = ({mode}:Props) => {
                     <div className="space-x-4 flex-1 md:flex-none">
                        <ul className="flex flex-row float-right space-x-4">
                            <li className="hidden lg:block">
-                           <Link href="#" >
-                             <a>Join Our Discord</a>
+                           <Link href="https://discord.com/invite/cUeNS8UzGW" >
+                             <a target="_blank">Join Our Discord</a>
                              </Link>
                            </li>
                            <li>
