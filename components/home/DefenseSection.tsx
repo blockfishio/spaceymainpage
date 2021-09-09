@@ -8,7 +8,7 @@ const DefenseSection =  () => {
     <section>
         <div className=" mx-auto mt-10">
             <div className="flex flex-rows">
-              <div className="bg-defense-image-mobile lg:bg-defense-image bg-left min-h-full w-3/5 bg-cover">
+              <div className="bg-defense-image-mobile lg:bg-defense-image bg-left-top min-h-full w-3/5 bg-cover">
                  
               </div>
               <div className="bg-defense-right-background  bg-cover bg-right md:bg-left items-center my-10  flex-1 px-5 -ml-40  py-10 md:p-20">

@@ -23,7 +23,7 @@ Some third-party providers may place cookies or pixels - small data files stored
 </p>
     <p>
 1.3 Any questions, comments or complaints that you might have should be emailed to 
-<Link href={mailAddress}>
+<Link href={"mailto:" + mailAddress}>
    <a className="opacity-100 text-spacey-white font-bold">{mailAddress}</a>
 </Link>.
 </p>
@@ -130,7 +130,7 @@ Some third-party providers may place cookies or pixels - small data files stored
            </p>
            <p>
            9.3. If you wish to investigate the exercising of any of these rights, please write to us at the following address:  
-           <Link href={mailAddress}>
+           <Link href={"mailto:" + mailAddress}>
              <a className="opacity-100 text-spacey-white font-bold ml-1">{mailAddress}</a>
            </Link>.
 
@@ -147,7 +147,7 @@ Some third-party providers may place cookies or pixels - small data files stored
            10.1 This Privacy Policy may be revised periodically and this will be reflected by the “Last update posted” date above. Please revisit this page to stay aware of any changes.
            </p>
            <p>
-           10.2 Contact Information:     <Link href={mailAddress}>
+           10.2 Contact Information:     <Link href={"mailto:" + mailAddress}>
              <a className="opacity-100 text-spacey-white font-bold">{mailAddress}</a>
            </Link>.
            </p>
