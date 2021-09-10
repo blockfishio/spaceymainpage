@@ -41,8 +41,8 @@ const GetSpay: NextPage = () => {
       <div className="container mx-auto flex flex-col md:flex-row gap-x-10 mt-5 gap-y-10 w-11/12 md:w-full cursor-pointer">
           <div>
             <div className="transform transition duration-200 hover:-translate-y-2 block">
-            <Link href="#" >
-              <a>
+            <Link href="https://pancakeswap.finance" >
+              <a target="_blank">
               <Image src={panCakesSwap} />
               </a>
               </Link>
@@ -50,8 +50,8 @@ const GetSpay: NextPage = () => {
           </div>
           <div>
             <div  className="transform transition duration-200 hover:-translate-y-2 block">
-            <Link href="#">
-            <a>
+            <Link href="https://uniswap.org/">
+            <a target="_blank">
               <Image src={uniSwamp} />
               </a>
              </Link>
