@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Image from 'next/image'
+import Link from 'next/link'
 import withLayout from '../../hocs/withLayout'
 import panCakesSwap from '../../public/images/ic_pancakeswap@2x.png'
 import uniSwamp from '../../public/images/ic_uniswap@2x.png'
@@ -37,12 +38,24 @@ const GetSpay: NextPage = () => {
       <div>
 
       </div>
-      <div className="container mx-auto flex flex-col md:flex-row gap-x-10 mt-5 gap-y-10 w-11/12 md:w-full">
+      <div className="container mx-auto flex flex-col md:flex-row gap-x-10 mt-5 gap-y-10 w-11/12 md:w-full cursor-pointer">
           <div>
+            <div className="transform transition duration-200 hover:-translate-y-2 block">
+            <Link href="#" >
+              <a>
               <Image src={panCakesSwap} />
+              </a>
+              </Link>
+             </div>
           </div>
           <div>
+            <div  className="transform transition duration-200 hover:-translate-y-2 block">
+            <Link href="#">
+            <a>
               <Image src={uniSwamp} />
+              </a>
+             </Link>
+             </div>
           </div>
       </div>
     </div>

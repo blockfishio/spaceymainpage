@@ -12,7 +12,7 @@ const Home: NextPage = () => {
   return (
     <div className="text-spacey-white">
       <Header title="Spacey Home Page" />
-      <div className="bg-hero-image-mobile bg-top lg:bg-hero-image overflow-hidden bg-cover">
+      <div className="bg-hero-image-mobile bg-center lg:bg-hero-image-lg overflow-hidden bg-cover ">
       <NavBar mode="light" />
       <LaunchSection />
       </div>

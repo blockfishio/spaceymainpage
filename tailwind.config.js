@@ -6,6 +6,7 @@ module.exports = {
       backgroundImage: theme => ({
         'hero-image': "url(/images/home_section_1.jpg)",
         'hero-image-mobile': "url(/images/home_section_1_mobile.jpg)",
+        'hero-image-lg': "url(/images/home_section_1_extra_lg.png)",
         'explore-image': "url(/images/explore.jpg)",
         'defense-image': "url(/images/defense_bg.png)",
         'defense-image-mobile': "url(/images/defense_bg_mobile.png)",
