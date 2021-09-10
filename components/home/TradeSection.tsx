@@ -14,7 +14,7 @@ const TradeSection =  () => {
                  <div className="pb-10 w-7/12 md:w-5/12 h-auto">
                    <Image src={tradeImage} layout="responsive"/>
                  </div>
-                 <div className="text-lg">
+                 <div className="text-lg lg:text-xl">
                   <div className=" mb-10 md:mb-10 lg:mb-10">Exchange your Martian assets with other players</div>
                   <div>Buy and sell LANDS, buildings, towers and ores in Space Y Marketplace</div>
                  </div>
