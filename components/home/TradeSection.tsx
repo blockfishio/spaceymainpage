@@ -7,15 +7,15 @@ import Link from 'next/link'
 
 const TradeSection =  () => {
   return (
-    <section className="bg-spacey-black-background">
-        <div className="container mx-auto mt-10 py-20">
-          <div className="grid grid-cols-2 pl-5 md:gap-2">
-             <div className="flex flex-col flex-initial">
+    <section className="bg-spacey-black-background h-120 md:h-192  flex items-center justify-center">
+        <div className="container mx-auto py-52">
+          <div className="grid grid-cols-2 pl-5 pr-5 md:pr-0 md:gap-2 self-center ">
+             <div className="flex flex-col justify-between">
                  <div className="pb-10 w-7/12 md:w-5/12 h-auto">
                    <Image src={tradeImage} layout="responsive"/>
                  </div>
-                 <div className="opacity-70 ">
-                  <div className="md:mt-20 mb-10 md:mb-5">Exchange your Martian assets with other players</div>
+                 <div className="text-lg">
+                  <div className=" mb-10 md:mb-10 lg:mb-10">Exchange your Martian assets with other players</div>
                   <div>Buy and sell LANDS, buildings, towers and ores in Space Y Marketplace</div>
                  </div>
                  <div className="mt-10 md:mt-20 hidden md:block">
@@ -39,7 +39,7 @@ const TradeSection =  () => {
           </div>
 
           <div className="mt-10 md:mt-20 md:hidden">
-                   <div className="md:float-right w-7/12 md:w-4/12 xl:w-3/12 h-auto">
+                   <div className="mx-auto w-7/12 md:w-4/12 xl:w-3/12 h-auto">
                    <Link href="/">
                      <a>
                          <Image src={startBrowsing} layout="responsive"/>

@@ -9,9 +9,9 @@ const LaunchSection =  () => {
         <div className="container mx-auto md:mt-20 pt-10 md:pt-10">
             <div className="flex flex-rows justify-center  align-center mt-20">
                 <div className="w-11/12 hidden md:block" >
-                    <div className="font-bankgothic text-8xl">MARS &</div>
+                    <div className="font-bankgothic text-6xl lg:text-8x1">MARS &</div>
                     <div className="flex flex-rows flex-wrap items-center">
-                         <div className="w-40">COLONY MARS with THE POWER OF BLOCK CHAIN</div> <div className="font-bankgothic text-8xl">BLOCKCHAIN</div>
+                         <div className="w-60">COLONY MARS with THE POWER OF BLOCK CHAIN</div> <div className="font-bankgothic text-6xl lg:text-8x1">BLOCKCHAIN</div>
                     </div>
                 </div>
                 <div className="w-11/12 block md:hidden" >

@@ -7,7 +7,7 @@ import Link from 'next/link'
 const ExploreSection =  () => {
   return (
     <section>
-        <div className="bg-explore-image bg-center bg-cover ">
+        <div className="bg-explore-image bg-center bg-cover h-192">
             <div className="container mx-auto pt-40">
                 <div className="flex items-center flex-col">
                     <div className="pb-10 mx-auto w-7/12 md:w-5/12 h-auto">

@@ -5,8 +5,8 @@ import Link from 'next/link'
 const ContactSection =  () => {
   return (
     <section>
-        <div className="container mx-auto text-spacey-black mb-20">
-           <div className="grid grid-cols-1 md:grid-cols-2 mt-10 md:mt-20 md:gap-4 p-5 md:p-0">
+        <div className="container mx-auto text-spacey-black my-10 md:my-32 ">
+           <div className="grid grid-cols-1 md:grid-cols-2   md:gap-4 p-5 md:p-0">
                <div className="flex flex-col gap-y-3 justify-between">
                   <h2 className="text-2xl font-medium mb-3"> Contact us</h2>
                   <div>
