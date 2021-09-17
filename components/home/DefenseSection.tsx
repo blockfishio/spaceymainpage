@@ -12,7 +12,7 @@ const DefenseSection =  () => {
                  
               </div>
               <div className="bg-defense-right-background  bg-cover bg-right md:bg-left items-center my-10  flex-1 px-5 -ml-40  py-10 md:p-20">
-                  <div className="mx-auto md:mx-0 w-7/12 md:w-5/12 h-auto">
+                  <div className="mx-auto md:mx-0  w-64 md:w-80 h-auto">
                       <Image src={startDefense} alt="Start Defense" layout="responsive"/>
                       <hr className="mt-2 w-40 text-spacey-underline bg-spacey-underline h-0.5"  />
                   </div>
@@ -20,7 +20,7 @@ const DefenseSection =  () => {
                       Use your strategies to build a Martian defense system 
                       to effectively defend against enemy invasion
                   </div>
-                 <div className="mt-20 mb-20  mx-auto md:mx-0  w-10/12 md:w-7/12 h-auto">
+                 <div className="mt-20 mb-20  mx-auto md:mx-0   w-64 md:w-80 h-auto">
                      <Image src={defenseButton} alt="Defense" layout="responsive"/>
                  </div>
                  

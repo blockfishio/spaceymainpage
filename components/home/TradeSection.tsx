@@ -11,7 +11,7 @@ const TradeSection =  () => {
         <div className="container mx-auto py-52">
           <div className="grid grid-cols-2 pl-5 pr-5 md:pr-0 md:gap-2 self-center ">
              <div className="flex flex-col justify-between">
-                 <div className="pb-10 w-7/12 md:w-5/12 h-auto">
+                 <div className="pb-10  w-48 md:w-80 h-auto">
                    <Image src={tradeImage} layout="responsive"/>
                  </div>
                  <div className="text-lg lg:text-xl">
@@ -39,7 +39,7 @@ const TradeSection =  () => {
           </div>
 
           <div className="mt-10 md:mt-20 md:hidden">
-                   <div className="mx-auto w-7/12 md:w-4/12 xl:w-3/12 h-auto">
+                   <div className="mx-auto w-7/12  w-64 md:w-80 h-auto">
                    <Link href="/">
                      <a>
                          <Image src={startBrowsing} layout="responsive"/>
