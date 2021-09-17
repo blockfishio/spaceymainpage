@@ -16,7 +16,7 @@ const LaunchSection =  () => {
                 </div>
                 <div className="w-11/12 block md:hidden" >
                     <div className="text-center">
-                        <div className="font-bankgothic text-5xl">MARS & BLOCKCHAIN</div>
+                        <div className="font-bankgothic text-4xl md:text-5x1">MARS & BLOCKCHAIN</div>
                         <div className="flex flex-cols flex-wrap items-center justify-center px-10 text-xl mt-5">
                             <div className="text-center">COLONY MARS with </div>
                             <div className="text-center"> THE POWER OF BLOCK CHAIN</div>
