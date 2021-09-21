@@ -18,11 +18,15 @@ module.exports = {
       height: {
         '120': '36rem',
         '192': '48rem'
-      }
+      },
+      fontSize: {
+        'nav': ['13px', '20px']
+     }
     },
     colors: {
       'spacey-heavy': '#060f18', 
       'spacey-white': '#fff',
+      'spacey-navbar': '#242129',
       'spacey-light-grey': '#464646',
       'spacey-underline': '#373634',
       'spacey-black-background': '#1a1a1a',
@@ -37,7 +41,7 @@ module.exports = {
       'spacey-form-text': '#a7b0b9',
       'spacey-form-border': '#1c3049',
       'spacey-mobile-grey': '#9b9b9b',
-      'spacey-mobile-background': '#e6e6e6',
+      'spacey-mobile-background': '#322e37',
       'spacey-mobile-grey-heavy':'#5a5a5a',
       "spacey-text-header": '#f9f9f9',
       "spacey-text-subheader": '#cccbc9',
@@ -56,9 +60,9 @@ module.exports = {
       'spacey-login-close': '#3d3b47',
       'spacey-login-text-heavy': '#bdbbc7',
       'spacey-login-text-light': '#777387'
-
     },
     fontFamily: {
+      'segoe': ["Segoe UI",'roboto',"Helvetica Neue",'arial','sans-serif'],
       'robo': ['roboto', 'sans-serif', 'arial','helvetica','clean'], 
       'bankgothic': ['Bank Gothic', 'roboto', 'sans-serif']
     }
