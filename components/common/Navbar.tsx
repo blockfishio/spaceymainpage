@@ -122,7 +122,7 @@ const NavBar = ({mode}:Props) => {
                         {navLinks.map(({ title, link, link_type }, id) => (
                             <li key={id} >
                                 <Link href={link}>
-                                <a className="" target={link_type}>
+                                <a className="hover:text-spacey-mobile-background-hover" target={link_type}>
                                  <span>{title}</span>
                                  </a>
                                 </Link>

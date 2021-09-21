@@ -42,6 +42,7 @@ module.exports = {
       'spacey-form-border': '#1c3049',
       'spacey-mobile-grey': '#9b9b9b',
       'spacey-mobile-background': '#322e37',
+      'spacey-mobile-background-hover': '#bd8e6a',
       'spacey-mobile-grey-heavy':'#5a5a5a',
       "spacey-text-header": '#f9f9f9',
       "spacey-text-subheader": '#cccbc9',
