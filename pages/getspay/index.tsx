@@ -22,10 +22,19 @@ const GetSpay: NextPage = () => {
         </div>
       </div>
       <div className="gradientBackgroundFull my-5" >
-        <div className="container mx-auto py-5 flex flex-row gap-x-2  w-11/12 md:w-full">
-              <Image src={addressIcon} width="26" height="26" />  
-              <div><span className="text-spacey-grey mr-2">SPAY Adress:</span> 0sd080asd8gxlcjlkjdlasjkdgljs 
-              </div>
+        <div className="container mx-auto py-5 flex flex-col md:flex-row gap-x-2  w-11/12 md:w-full">
+              <div className="flex flex-row">
+                <div className="mr-2">
+                   <Image src={addressIcon} width="26" height="26" />  
+                 </div>
+                 <div>
+                    <span className="text-spacey-grey mr-2">SPAY Contract Adress:</span> 
+                 </div>
+               </div>
+               <div className=" mx-auto mt-3 md:mt-0 md:mx-0">
+                 <div>0xc0ffee254729296a45a3885639AC7E10F9d54979 (ETH) </div>
+                 <div>0xc0ffee254729adga5a388563asdgE10Fadddsd79 (BTC)</div>
+                </div>
         </div>
       </div>
       <div>
