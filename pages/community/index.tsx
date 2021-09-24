@@ -23,7 +23,7 @@ const GetSpay: NextPage = () => {
         <div className="container mx-auto py-5 flex flex-col md:flex-row gap-x-2  w-11/12 md:w-full">
               <div className="flex flex-row">
                 <div className="mr-2" text-lg>
-                     Spacey's Community is where our players share their fun experiences with each other!
+                     Spacey&apos;s Community is where our players share their fun experiences with each other!
                  </div>
                </div>
         </div>
@@ -35,7 +35,7 @@ const GetSpay: NextPage = () => {
             </div>
          
             <div>
-                Let's get started to join our communities to receive the most recent news, tips and even prizes!
+                Let&apos;s get started to join our communities to receive the most recent news, tips and even prizes!
             </div>
         </div>
       </div>
