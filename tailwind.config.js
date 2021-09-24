@@ -15,6 +15,9 @@ module.exports = {
         "astro-background-mobile": "url(/images/astro_mobile.jpg)",
         "login-background": "url(/images/ic_loginbasemap.png)"
       }), 
+      backgroundPosition: {
+          "center-right": "70% top"
+      },
       height: {
         '120': '36rem',
         '192': '48rem'

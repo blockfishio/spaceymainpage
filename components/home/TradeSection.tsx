@@ -32,7 +32,7 @@ const TradeSection =  () => {
                <div className=" hidden md:block h-auto w-full ">
                      <Image src={astroImage} layout="responsive" />
                </div>
-               <div className="bg-astro-background-mobile md:hidden bg-cover bg-center md:bg-right h-full ml-5">
+               <div className="bg-astro-background-mobile md:hidden bg-cover bg-center-right md:bg-right h-full ml-5">
 
                </div>
               </div>
