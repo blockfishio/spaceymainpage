@@ -37,8 +37,8 @@ const NavBar = ({mode}:Props) => {
         },
         {
             title: 'Community',
-            link: 'https://discord.com/invite/cUeNS8UzGW',
-            link_type: 'external'
+            link: '/community',
+            link_type: ''
         },
         {
             title: 'Free Ticket',
