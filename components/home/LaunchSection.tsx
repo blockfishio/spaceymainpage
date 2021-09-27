@@ -30,7 +30,7 @@ const LaunchSection =  () => {
                 <div className="flex flex-rows justify-center">
                     <div className="w-11/12">
                         <div className="w-96">
-                        Purchase your SpaceY Boardding Pass to get early access to the grand exploring on Mars
+                        Purchase your SpaceY Boarding Pass to get early access to the grand exploring on Mars
                         </div>
                 </div>
                </div>

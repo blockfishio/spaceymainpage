@@ -32,8 +32,8 @@ const GetSpay: NextPage = () => {
                  </div>
                </div>
                <div className=" mx-auto mt-3 md:mt-0 md:mx-0">
-                 <div>0xc0ffee254729296a45a3885639AC7E10F9d54979 (ETH) </div>
-                 <div>0xc0ffee254729adga5a388563asdgE10Fadddsd79 (BTC)</div>
+                 <div>0x58FaD9E3C3AE54c9BA98c3f0E4bF88aB3E8Cf3c5 (ETH) </div>
+                 <div>0x13A637026dF26F846D55ACC52775377717345c06 (BTC)</div>
                 </div>
         </div>
       </div>

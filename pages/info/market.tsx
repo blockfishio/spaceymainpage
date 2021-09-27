@@ -17,7 +17,7 @@ const Info: NextPage = () => {
   return (
     <div>
       <div className="grid grid-cols-1 md:grid-cols-4 container mx-auto mt-10  md:mt-28 ">
-          <SideMenu active="home" />
+          <SideMenu active="market" />
           <div className="md:col-span-3 hidden md:block">
                 <div className="flex flex-row gap-4 justify-between">
                     
@@ -48,7 +48,7 @@ const Info: NextPage = () => {
 
               </div>
               <div className="md:col-span-3">
-              <h3 className="font-bankgothic text-4xl py-4"> ABOUT Space Y 2025</h3>
+              <h3 className="font-bankgothic text-4xl py-4"> SpaceY2025 Market</h3>
               </div>
           </div>
         </div>

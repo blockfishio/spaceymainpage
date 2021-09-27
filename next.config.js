@@ -6,4 +6,12 @@ module.exports = {
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
   },
+  async rewrites() {
+    return [
+      {
+        source: '/market',
+        destination: '/',
+      },
+    ]
+  },
 }

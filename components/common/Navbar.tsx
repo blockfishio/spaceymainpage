@@ -17,8 +17,8 @@ const NavBar = ({mode}:Props) => {
     const navLinks = [
         {
             title: 'Market', 
-            link: '/market', 
-            link_type: ''
+            link: 'https://market.spacey2025.com', 
+            link_type: 'external'
         },
         {
             title: 'Info', 
@@ -131,7 +131,7 @@ const NavBar = ({mode}:Props) => {
                         ))}
                         </ul>
                     </div>
-                    <div className="space-x-4 flex-1 md:flex-none">
+                    {/* <div className="space-x-4 flex-1 md:flex-none">
                        <ul className="flex flex-row float-right space-x-4  font-segoe text-nav " >
                            <li className="hidden lg:block">
                            <Link href="https://discord.com/invite/cUeNS8UzGW" >
@@ -147,7 +147,7 @@ const NavBar = ({mode}:Props) => {
                        </ul>
                      
                        
-                    </div>
+                    </div> */}
                 </div>
               </div>
             </nav>

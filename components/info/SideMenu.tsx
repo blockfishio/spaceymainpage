@@ -18,7 +18,12 @@ const SideMenu = ({active}:Props) => {
                Home
                </Link>
             </li>
-            <li className="pl-2 py-1 ">Background History</li>
+            <li className="pl-2 py-1 ">
+            <Link href="/info/background">
+
+                Background Story
+                </Link>
+                </li>
             <li className="pl-2 py-1">GamePlay</li>
                 <ul className="flex flex-col text-spacey-light-grey  text-base font-medium">
                     <li className={"pl-6 py-1 " + (activeTab === 'build' ? activeClass : "")}>
@@ -26,18 +31,23 @@ const SideMenu = ({active}:Props) => {
                             Build
                         </Link>
                     </li>
-                    <li className="pl-6 py-1 ">
-                        <Link href="#">
-                            Flight
+                    <li className={"pl-6 py-1 " + (activeTab === 'fight' ? activeClass : "")}>
+                        <Link href="/info/fight">
+                            Fight
                         </Link>
                     </li>
-                    <li className="pl-6 py-1 ">
-                        <Link href="#">
+                    <li className={"pl-6 py-1 " + (activeTab === 'upgrade' ? activeClass : "")}>
+                        <Link href="/info/upgrade">
                             Upgrade
                         </Link>
                     </li>
                 </ul>
-            <li className="pl-2 py-1">Market</li>
+            <li className={"pl-2 py-1" + (activeTab === 'market' ? activeClass : "")}>
+                <Link href="/info/market">
+                Market
+                </Link>
+                
+                </li>
         </ul>
      </div>
     )
