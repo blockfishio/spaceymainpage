@@ -82,31 +82,31 @@ Come join us as one of the human pioneers.
            <div>
              <div className="grid grid-cols-2 gap-5 px-5">
                <div >
-                 <Link href="/info">
+                 <Link href="/info/build">
                   <Image className="rounded-xl" src={infoImage1} layout="responsive" />
                   </Link>
 
-                  <div className="opacity-90 mt-4">Home</div>
-                  <div className="opacity-70 text-sm">General info for players</div>
+                  <div className="opacity-90 mt-4">Build</div>
+                  <div className="opacity-70 text-sm">Learn how to build</div>
                </div>
                <div>
                <Link href="/info/fight">
                 <Image className="rounded-xl" src={infoImage2} layout="responsive"/>
                </Link>
-               <div className="opacity-90 mt-4">Background Story</div>
-                  <div  className="opacity-70 text-sm">Read interesting stories behind this game.</div>
+               <div className="opacity-90 mt-4">Fight</div>
+                  <div  className="opacity-70 text-sm">Learn about the fighting strategies</div>
                </div>
              </div>
              <div className="grid grid-cols-2 mt-10  gap-5 px-5">
               <div>
-              <Link href="/info/background">
+              <Link href="/info/upgrade">
                  <Image className="rounded-xl" src={infoImage3} layout="responsive"/>
               </Link>
-                  <div className="opacity-90 mt-4">Gameplay</div>
-                  <div  className="opacity-70 text-sm">Learn some basic playing techniques</div>
+                  <div className="opacity-90 mt-4">Upgrade</div>
+                  <div  className="opacity-70 text-sm">Understand how upgrade works</div>
               </div>
               <div>
-              <Link href="/market">
+              <Link href="/info/market">
                 <Image className="rounded-xl" src={infoImage4} layout="responsive"/>
               </Link>
                   <div className="opacity-90 mt-4" >Trade</div>
