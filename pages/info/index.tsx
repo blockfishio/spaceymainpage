@@ -17,7 +17,7 @@ const Info: NextPage = () => {
   return (
     <div>
       <div className="grid grid-cols-1 md:grid-cols-4 container mx-auto mt-10  md:mt-28 ">
-          <SideMenu active="home" />
+          <SideMenu active="home"  toggle={false}/>
           <div className="md:col-span-3 hidden md:block">
                 <div className="flex flex-row gap-4 justify-between">
                     
@@ -90,7 +90,7 @@ Come join us as one of the human pioneers.
                   <div className="opacity-70 text-sm">General info for players</div>
                </div>
                <div>
-               <Link href="/info">
+               <Link href="/info/fight">
                 <Image className="rounded-xl" src={infoImage2} layout="responsive"/>
                </Link>
                <div className="opacity-90 mt-4">Background Story</div>
@@ -99,14 +99,14 @@ Come join us as one of the human pioneers.
              </div>
              <div className="grid grid-cols-2 mt-10  gap-5 px-5">
               <div>
-              <Link href="/info/build">
+              <Link href="/info/background">
                  <Image className="rounded-xl" src={infoImage3} layout="responsive"/>
               </Link>
                   <div className="opacity-90 mt-4">Gameplay</div>
                   <div  className="opacity-70 text-sm">Learn some basic playing techniques</div>
               </div>
               <div>
-              <Link href="/info">
+              <Link href="/market">
                 <Image className="rounded-xl" src={infoImage4} layout="responsive"/>
               </Link>
                   <div className="opacity-90 mt-4" >Trade</div>

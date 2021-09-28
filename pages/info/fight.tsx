@@ -9,7 +9,7 @@ const Info: NextPage = () => {
   return (
     <div>
       <div className="grid md:grid-cols-4 container mx-auto mt-10 md:mt-28">
-          <SideMenu active="fight" />
+          <SideMenu active="fight"  toggle={true}/>
           <div className="col-span-3 p-5 md:p-0">
                 <div className="flex flex-col gap-4 justify-between">
                     <h3 className=" text-4xl py-4 font-bankgothic"> Fight</h3>
