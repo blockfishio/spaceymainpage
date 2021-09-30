@@ -21,7 +21,7 @@ const SideMenu = ({active, toggle = false}:Props) => {
                Home
                </Link>
             </li>
-            <li className="pl-2 py-1 ">
+            <li className={"pl-2 py-1 "  + (activeTab === 'background' ? activeClass : "")}>
             <Link href="/info/background">
 
                 Background Story
@@ -53,7 +53,7 @@ const SideMenu = ({active, toggle = false}:Props) => {
                         </Link>
                     </li>
                 </ul>
-            <li className={"pl-2 py-1" + (activeTab === 'market' ? activeClass : "")}>
+            <li className={"pl-2 py-1 " + (activeTab === 'market' ? activeClass : "")}>
                 <Link href="/info/market">
                 Market
                 </Link>
