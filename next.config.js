@@ -7,11 +7,22 @@ module.exports = {
     includePaths: [path.join(__dirname, 'styles')],
   },
   async rewrites() {
-    return [
+    return {beforeFiles:[
+
       {
         source: '/market',
         destination: '/',
       },
+      {
+        source: '/dao',
+        destination: '/',
+      },
+
+      {
+        source: '/getspay',
+        destination: '/',
+      },
     ]
-  },
+  }
+},
 }

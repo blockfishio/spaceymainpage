@@ -15,25 +15,9 @@ const Info: NextPage = () => {
                     <h3 className=" text-4xl py-4 font-bankgothic"> Build</h3>
                   
                     <div>
-                    The shoes had been there for as long as anyone could remember. 
-                    In fact, it was difficult for anyone to come up with a date they had first appeared. 
-                    It had seemed they&apos;d always been there and yet they seemed so out of place.
-                     Why nobody had removed them was a question that had been asked time and again, 
-                     but while they all thought it, nobody had ever found the energy to actually do it. 
-                     So, the shoes remained on the steps, out of place in one sense,
-                      but perfectly normal in another.
-                    </div>
-                    <div className="md:hidden;">
-                       <Image src={infoBuildImage} alt="build information" />
-                    </div>
-                    <div>
-                    The shoes had been there for as long as anyone could remember. 
-                    In fact, it was difficult for anyone to come up with a date they had first appeared. 
-                    It had seemed they&apos;d always been there and yet they seemed so out of place.
-                     Why nobody had removed them was a question that had been asked time and again, 
-                     but while they all thought it, nobody had ever found the energy to actually do it. 
-                     So, the shoes remained on the steps, out of place in one sense,
-                      but perfectly normal in another.
+                    The finite, traversable, 3D virtual space within SpaceY 2025 is called Island, a non-fungible digital asset maintained in an Ethereum smart contract. Each Island has its own serial Tag (e.g. A, 0). These Islands are permanently owned by players in SpaceY 2025 and are purchased using SPAY, SpaceY’s crypto currency token.
+</div><div>This allows players to place construction NFTs on the Island, and different construction NFTs will give players different advantages during the gameplay.
+
                     </div>
                 </div>
                 <div className="hidden md:blockmt-10">
