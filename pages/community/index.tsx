@@ -15,7 +15,7 @@ const GetSpay: NextPage = () => {
               Community
               </div>
               <div className="ml-4 w-8 md:w-12">
-              <Image src={arrowIcon} layout="responsive"/>
+              <Image src={arrowIcon} layout="responsive" alt="arrow icon"/>
               </div>
         </div>
       </div>
@@ -31,7 +31,7 @@ const GetSpay: NextPage = () => {
       <div>
         <div className="container mx-auto py-5  flex flex-row gap-x-2  w-11/12 md:w-full">
             <div className="flex-shrink-0">
-            <Image src={handIcon} width="26" height="26" />  
+            <Image src={handIcon} width="26" height="26" alt="Hand Icon"/>  
             </div>
          
             <div>

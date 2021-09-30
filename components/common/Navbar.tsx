@@ -70,7 +70,7 @@ const NavBar = ({mode}:Props) => {
                             <div className="flex flex-row items-center">
                                 <div className="">
                                 <Link  href="/">
-                                 <a className="ml-1"><Image priority={true} src={mobileLogo} width="200" height="50"   quality="100"/></a>
+                                 <a className="ml-1"><Image priority={true} src={mobileLogo} width="200" height="50"   quality="100" alt="Mobile Logo"/></a>
                                 </Link>
                                 </div>
                                 <div className="text-spacey-mobile-grey flex items-center">
@@ -99,7 +99,7 @@ const NavBar = ({mode}:Props) => {
                    <div className="flex-initial lg:mr-4 -ml-5">
                     <Link href="/">
                       <a>
-                        <Image src={logo} quality="100" width="200" height="50"/>
+                        <Image src={logo} quality="100" width="200" height="50" alt="Logo" />
                       </a>
                     </Link>
                    </div>

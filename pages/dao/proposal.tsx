@@ -21,7 +21,7 @@ const DaoProposal: NextPage = () => {
             <div className=" container mx-auto grid grid-cols-1 md:grid-cols-3 uppercase mb-10 py-8 gap-x-10">
                 <div className="flex flex-row gap-x-3 items-center">
                     <div className="pt-1" >
-                        <Image src={votingPowerIcon} width="20" height="20"  className="align-middle" />
+                        <Image src={votingPowerIcon} width="20" height="20"  className="align-middle"  alt="Voting Power Icon"/>
                     </div>
                     <div className="align-top">
                            Voting Power
@@ -34,13 +34,13 @@ const DaoProposal: NextPage = () => {
                             <div className="mr-5">
                                 <span className="align-text-bottom mr-2">Relewant Outcoms
                                 </span>
-                                <Image src={arrowDownIcon} width="15" height="15"/>
+                                <Image src={arrowDownIcon} width="15" height="15" alt="Arrow Down Icon" />
                                 </div>
                             <div>
                             <div className="mr-5">
                                 <span className="align-text-bottom mr-2"> Categories
                                 </span>
-                                <Image src={arrowDownIcon} width="15" height="15"/>
+                                <Image src={arrowDownIcon} width="15" height="15" alt="Arrow Down Icon" />
                                 </div>
                              </div> 
                             <div>
@@ -59,7 +59,7 @@ const DaoProposal: NextPage = () => {
         <div className="container mx-auto grid grid-cols-1 md:grid-cols-3  uppercase gap-x-10">
             <div>
                 <div className="ml-5 md:ml-0">
-                   <Image src={totalIcon} width="15" height="15" />
+                   <Image src={totalIcon} width="15" height="15" alt="Total Count Icon"  />
                    <span  className="ml-2 align-text-bottom mr-2">TOTAL</span>
                 </div>
 
@@ -83,7 +83,7 @@ const DaoProposal: NextPage = () => {
                         
                         <div className="flex flex-row justify-between my-5">
                             <div>
-                               <Image src={landIcon} width="25" height="25" />
+                               <Image src={landIcon} width="25" height="25" alt="Land Icon" />
                                 <span className="align-top ml-2">0 LANDS</span> 
 
                             </div>
@@ -95,7 +95,7 @@ const DaoProposal: NextPage = () => {
                       
                        <div className="flex flex-row justify-between my-4">
                          <div>
-                         <Image src={estatesIcon} width="25" height="25" />
+                         <Image src={estatesIcon} width="25" height="25" alt="estate icons" />
                          <span className="align-top ml-2">0 ESTATEs</span>
                           </div>
                           <div>
@@ -106,7 +106,7 @@ const DaoProposal: NextPage = () => {
                 
                      <div className="flex flex-row justify-between  my-2">
                         <div>
-                        <Image src={manaIcon} width="25" height="25" />
+                        <Image src={manaIcon} width="25" height="25"  alt="mana icon" />
                            <span className="align-top ml-2"> 0 MANA</span> 
                         </div>
                         <div>
@@ -134,13 +134,13 @@ const DaoProposal: NextPage = () => {
                             <div className="mr-5">
                                 <span className="align-text-bottom mr-2">Relewant Outcoms
                                 </span>
-                                <Image src={arrowDownIcon} width="15" height="15"/>
+                                <Image src={arrowDownIcon} width="15" height="15" alt="arrow down icon" />
                                 </div>
                             <div>
                             <div className="mr-5">
                                 <span className="align-text-bottom mr-2"> Categories
                                 </span>
-                                <Image src={arrowDownIcon} width="15" height="15"/>
+                                <Image src={arrowDownIcon} width="15" height="15" alt="arrow down icon" />
                                 </div>
                              </div> 
                        

@@ -22,19 +22,19 @@ const Info: NextPage = () => {
                 <div className="flex flex-row gap-4 justify-between">
                     
                   <div className="">
-                      <Image src={buildImage} />
+                      <Image src={buildImage} alt="build" />
                   </div>
 
                   <div>
-                      <Image src={fightImage} />
+                      <Image src={fightImage} alt="fight" />
                   </div>
 
                   <div>
-                      <Image src={upgradeImage} />
+                      <Image src={upgradeImage} alt="upgrade" />
                   </div>
 
                   <div>
-                      <Image src={tradeImage} />
+                      <Image src={tradeImage} alt="trade" />
                   </div>
 
                 </div>
@@ -82,16 +82,16 @@ Come join us as one of the human pioneers.
            <div>
              <div className="grid grid-cols-2 gap-5 px-5">
                <div >
-                 <Link href="/info/build">
-                  <Image className="rounded-xl" src={infoImage1} layout="responsive" />
+                 <Link href="/info/build" passHref>
+                  <Image className="rounded-xl" src={infoImage1} layout="responsive" alt="general information" />
                   </Link>
 
                   <div className="opacity-90 mt-4">Build</div>
                   <div className="opacity-70 text-sm">Learn how to build</div>
                </div>
                <div>
-               <Link href="/info/fight">
-                <Image className="rounded-xl" src={infoImage2} layout="responsive"/>
+               <Link href="/info/fight" passHref>
+                <Image className="rounded-xl" src={infoImage2} layout="responsive" alt="general information"  />
                </Link>
                <div className="opacity-90 mt-4">Fight</div>
                   <div  className="opacity-70 text-sm">Learn about the fighting strategies</div>
@@ -99,15 +99,15 @@ Come join us as one of the human pioneers.
              </div>
              <div className="grid grid-cols-2 mt-10  gap-5 px-5">
               <div>
-              <Link href="/info/upgrade">
-                 <Image className="rounded-xl" src={infoImage3} layout="responsive"/>
+              <Link href="/info/upgrade" passHref>
+                 <Image className="rounded-xl" src={infoImage3} layout="responsive" alt="general information" />
               </Link>
                   <div className="opacity-90 mt-4">Upgrade</div>
                   <div  className="opacity-70 text-sm">Understand how upgrade works</div>
               </div>
               <div>
-              <Link href="/info/market">
-                <Image className="rounded-xl" src={infoImage4} layout="responsive"/>
+              <Link href="/info/market" passHref>
+                <Image className="rounded-xl" src={infoImage4} layout="responsive" alt="general information" />
               </Link>
                   <div className="opacity-90 mt-4" >Trade</div>
                   <div className="opacity-70 text-sm">Learn how to trade exclusive tokens.</div>

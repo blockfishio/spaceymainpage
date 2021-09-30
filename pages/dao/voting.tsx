@@ -5,7 +5,6 @@ import DaoTab from '../../components/dao/tab'
 import Link from 'next/link'
 import totalIcon from "../../public/images/ic_total@2x.png"
 import landIcon from "../../public/images/ic_lands@2x.png"
-import dottedLine from "../../public/images/ic_dottedline@2x.png"
 import {FaToggleOn} from "react-icons/fa"
 
 const DaoVoting: NextPage = () => {
@@ -19,7 +18,7 @@ const DaoVoting: NextPage = () => {
             <div className="container mx-auto uppercase mb-10 py-8 gap-x-10">
                 <div className="flex flex-row justify-between md:flex-col">
                     <div className="pt-1" >
-                        <Image src={totalIcon} width="20" height="20"  className="align-middle" />
+                        <Image src={totalIcon} width="20" height="20"  className="align-middle" alt="Align Middle" />
                         <span className="align-top ml-3">Total Voting Power
                         </span>
                     </div>
@@ -56,8 +55,8 @@ const DaoVoting: NextPage = () => {
                                 <div>0 <span className="ml-2 border px-2 border-spacey-dao-grey text-spacey-dao-grey">VP</span></div> 
                             </div>
                          </div>
-                         <div>
-                             <Image src={dottedLine} />
+                         <div className="bg-dot-image h-0.5">
+                           
                          </div>
                          <div className="mt-8 px-4 md:px-8 h-32 flex flex-row md:flex-col justify-between md:justify-start">
                              <div className="text-spacey-dao-content-text ">
@@ -65,7 +64,7 @@ const DaoVoting: NextPage = () => {
                                 
                              </div>
                              <div className="md:mt-5">
-                               <Image src={landIcon} width="25" height="25" />
+                               <Image src={landIcon} width="25" height="25" alt="land icon" />
                                 <span className="align-top ml-2">0 </span> 
                              </div>
                          </div>
@@ -111,9 +110,9 @@ const DaoVoting: NextPage = () => {
                                 <div>0 Lands</div> 
                             </div>
                          </div>
-                         <div>
-                             <Image src={dottedLine} />
-                         </div>
+                         <div className="bg-dot-image h-0.5">
+                           
+                           </div>
                          <div className="mt-8 px-4 md:px-8 h-32 flex flex-row md:flex-col justify-between md:justify-start">
                              <div className="text-spacey-dao-content-text ">
                                  Total Voting Power
@@ -124,9 +123,9 @@ const DaoVoting: NextPage = () => {
                              </div>
                          </div>
                          <div>
-                             <div>
-
-                             </div>
+                         <div>
+                           
+                           </div>
                              <div className="bg-spacey-dao-content-bottom mt-10 rounded-b px-3 py-3">
                                  <div className="flex flex-row justify-between container mx-auto">
                                     <div>
@@ -146,9 +145,9 @@ const DaoVoting: NextPage = () => {
             <div className="">
             <div className="flex flex-col">
                      <div className="flex flex-row justify-between">
-                        <div>
-                           
-                        </div>
+                    <div>
+
+                    </div>
                         <div className="mb-5">
                             <span className="text-spacey-vote-button">GET MANA ...</span>
                         </div>
@@ -165,9 +164,9 @@ const DaoVoting: NextPage = () => {
                                 <div>0 <span className="ml-2 border px-2 border-spacey-dao-grey text-spacey-dao-grey">ESTATES</span></div> 
                             </div>
                         </div>
-                         <div>
-                             <Image src={dottedLine} />
-                         </div>
+                        <div className="bg-dot-image h-0.5">
+                           
+                           </div>
                          <div className="mt-8 px-4 md:px-8 h-32">
                              <div className="text-spacey-dao-content-text flex flex-row justify-between ">
                                 <div>TOTAL LANDS</div> 

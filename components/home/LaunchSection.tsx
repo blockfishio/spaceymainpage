@@ -41,7 +41,7 @@ const LaunchSection =  () => {
             <div className="mx-auto md:float-right w-7/12 md:w-4/12 xl:w-3/12 h-auto"> 
               <Link href="/">
                 <a>
-                    <Image src={startLaunch} layout="responsive"></Image>
+                    <Image src={startLaunch} layout="responsive" alt="start launch"></Image>
                 </a>
               </Link>
             </div>

@@ -13,7 +13,8 @@ module.exports = {
         "defense-right-background": "url(/images/defend@2x.png)",
         "astro-background": "url(/images/astro.jpg)",
         "astro-background-mobile": "url(/images/astro_mobile.jpg)",
-        "login-background": "url(/images/ic_loginbasemap.png)"
+        "login-background": "url(/images/ic_loginbasemap.png)",
+        "dot-image": "url(/images/ic_dottedline.png)"
       }), 
       backgroundPosition: {
           "center-right": "70% top"

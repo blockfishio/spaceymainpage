@@ -11,7 +11,7 @@ const ExploreSection =  () => {
             <div className="container mx-auto pt-40">
                 <div className="flex items-center flex-col">
                     <div className="pb-10 mx-auto w-64 md:w-80 h-auto">
-                        <Image src={exploringTitle} layout="responsive" />
+                        <Image src={exploringTitle} layout="responsive" alt="Exploring Title" />
                     </div>
                     <div className="text-center text-xl tracking-wide px-5">
                         <div className="mb-5 opacity-80">Contribute to the future development of manking on Mars</div>
@@ -20,7 +20,7 @@ const ExploreSection =  () => {
                     <div className="mt-20 mb-20  mx-auto   w-64 md:w-80 h-auto">
                         <Link href="/">
                         <a>
-                            <Image src={startExploring} layout="responsive" />
+                            <Image src={startExploring} layout="responsive" alt="Start Exploring" />
                         </a>
                         </Link>
                     </div>

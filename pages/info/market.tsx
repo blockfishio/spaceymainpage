@@ -27,7 +27,7 @@ const Info: NextPage = () => {
                    </div>
               </div>
               <div className="block mt-10">
-                  <Image src={marketPlaceImage} layout="responsive" />
+                  <Image src={marketPlaceImage} layout="responsive" alt="Market Place Image"/>
               </div>
         </div>
     </div>

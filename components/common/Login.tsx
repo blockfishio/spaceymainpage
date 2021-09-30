@@ -40,7 +40,7 @@ export default function Login( {open, handleOpen} : Props) {
                   <div className="my-4 text-lg leading-relaxed flex flex-row justify-between gap-x-10">
                       <div className="flex flex-col justify-center">
                         <div className="mx-auto">
-                          <Image src={metaMask} width={50} height={50} />
+                          <Image src={metaMask} width={50} height={50} alt="MetaMask"/>
                         </div>
                         <div className="mx-auto text-spacey-login-text-heavy">
                           MetaMask
@@ -51,7 +51,7 @@ export default function Login( {open, handleOpen} : Props) {
                       </div>
                       <div className="flex flex-col justify-center">
                           <div className="mx-auto">
-                            <Image src={waxIcon} width={50} height={50} />
+                            <Image src={waxIcon} width={50} height={50} alt="wax icon" />
                           </div>
                           <div className="mx-auto  text-spacey-login-text-heavy">
                             Wax

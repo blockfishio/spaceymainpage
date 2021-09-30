@@ -24,7 +24,7 @@ const Info: NextPage = () => {
                       but perfectly normal in another.
                     </div>
                     <div className="md:hidden;">
-                       <Image src={infoBuildImage} />
+                       <Image src={infoBuildImage} alt="information background" />
                     </div>
                     <div>
                     The shoes had been there for as long as anyone could remember. 
@@ -37,7 +37,7 @@ const Info: NextPage = () => {
                     </div>
                 </div>
                 <div className="hidden md:blockmt-10">
-                    <Image src={infoBuildImage} />
+                    <Image src={infoBuildImage} alt="information background" />
                 </div>
           </div>
       </div>

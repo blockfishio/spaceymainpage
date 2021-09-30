@@ -39,7 +39,7 @@ const Dao: NextPage = () => {
                 <div className="rounded bg-spacey-form-background px-5 md:px-10 pt-10 pb-5">
                     <div className="flex flex-row  gap-x-10 "> 
                         <div className="rounded w-9/12 md:w-auto">
-                            <Image src={daoImage1} className="rounded-md"/>
+                            <Image src={daoImage1} className="rounded-md" alt="Dao rounded image"/>
                         </div>
                         <div className="flex flex-col gap-y-5 md:gap-y-10">
                             <h2 className="font-bankgothic md:text-2xl ">WHAT IS SPACE Y 2025 DAO</h2>    
@@ -52,7 +52,7 @@ const Dao: NextPage = () => {
                     </div>
                     <div className="flex flex-row justify-center mt-10 md:mt-0">
                         <div>
-                           <Image src={openArrow} width={20} height={20} />
+                           <Image src={openArrow} width={20} height={20} alt="Dao Open Arrow" />
                         </div>
                     </div>
                   </div>
@@ -62,7 +62,7 @@ const Dao: NextPage = () => {
                 <div className="rounded bg-spacey-form-background px-5 md:px-10 pt-10 pb-5">
                     <div className="flex flex-row  gap-x-10 "> 
                         <div className="rounded w-9/12 md:w-auto">
-                            <Image src={daoImage1} className="rounded-md"/>
+                            <Image src={daoImage1} className="rounded-md" alt="Dao rounded image"/>
                         </div>
                         <div className="flex flex-col gap-y-5 md:gap-y-10">
                             <h2 className="font-bankgothic md:text-2xl ">WHAT IS SPACE Y 2025 DAO</h2>    
@@ -75,7 +75,7 @@ const Dao: NextPage = () => {
                     </div>
                     <div className="flex flex-row justify-center mt-10 md:mt-0">
                         <div>
-                           <Image src={openArrow} width={20} height={20} />
+                           <Image src={openArrow} width={20} height={20}  alt="Dao Open Arrow"/>
                         </div>
                     </div>
                   </div>
@@ -85,7 +85,7 @@ const Dao: NextPage = () => {
                 <div className="rounded bg-spacey-form-background px-5 md:px-10 pt-10 pb-5">
                     <div className="flex flex-row  gap-x-10 "> 
                         <div className="rounded w-9/12 md:w-auto">
-                            <Image src={daoImage1} className="rounded-md"/>
+                            <Image src={daoImage1} className="rounded-md" alt="Dao rounded image"/>
                         </div>
                         <div className="flex flex-col gap-y-5 md:gap-y-10">
                             <h2 className="font-bankgothic md:text-2xl ">WHAT IS SPACE Y 2025 DAO</h2>    
@@ -98,7 +98,7 @@ const Dao: NextPage = () => {
                     </div>
                     <div className="flex flex-row justify-center mt-10 md:mt-0">
                         <div>
-                           <Image src={openArrow} width={20} height={20} />
+                           <Image src={openArrow} width={20} height={20} alt="Dao Open Arrow" />
                         </div>
                     </div>
                   </div>

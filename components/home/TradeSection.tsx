@@ -12,7 +12,7 @@ const TradeSection =  () => {
           <div className="grid grid-cols-2 pl-5 pr-5 md:pr-0 md:gap-2 self-center ">
              <div className="flex flex-col justify-between">
                  <div className="pb-10  w-48 md:w-80 h-auto">
-                   <Image src={tradeImage} layout="responsive"/>
+                   <Image src={tradeImage} layout="responsive" alt="Trade Image" />
                  </div>
                  <div className="text-lg lg:text-xl">
                   <div className=" mb-10 md:mb-10 lg:mb-10">Exchange your Martian assets with other players</div>
@@ -22,7 +22,7 @@ const TradeSection =  () => {
                    <div className=" w-7/12  xl:w-6/12 h-auto">
                    <Link href="/">
                      <a>
-                         <Image src={startBrowsing} layout="responsive"/>
+                         <Image src={startBrowsing} layout="responsive" alt="Start Browsing"/>
                      </a>
                      </Link>
                      </div>
@@ -30,7 +30,7 @@ const TradeSection =  () => {
              </div>
              <div >
                <div className=" hidden md:block h-auto w-full ">
-                     <Image src={astroImage} layout="responsive" />
+                     <Image src={astroImage} layout="responsive" alt="Astro Image" />
                </div>
                <div className="bg-astro-background-mobile md:hidden bg-cover bg-center-right md:bg-right h-full ml-5">
 
@@ -42,7 +42,7 @@ const TradeSection =  () => {
                    <div className="mx-auto w-7/12  w-64 md:w-80 h-auto">
                    <Link href="/">
                      <a>
-                         <Image src={startBrowsing} layout="responsive"/>
+                         <Image src={startBrowsing} layout="responsive" alt="start browsing" />
                      </a>
                      </Link>
                      </div>

@@ -17,7 +17,7 @@ const GetSpay: NextPage = () => {
               GET SPAY
               </div>
               <div className="ml-4 w-8 md:w-12">
-              <Image src={arrowIcon} layout="responsive"/>
+              <Image src={arrowIcon} layout="responsive" alt="arrow icon" />
               </div>
         </div>
       </div>
@@ -25,25 +25,26 @@ const GetSpay: NextPage = () => {
         <div className="container mx-auto py-5 flex flex-col md:flex-row gap-x-2  w-11/12 md:w-full">
               <div className="flex flex-row">
                 <div className="mr-2">
-                   <Image src={addressIcon} width="26" height="26" />  
+                   <Image src={addressIcon} width="26" height="26" alt="Address Icon" />  
                  </div>
                  <div>
                     <span className="text-spacey-grey mr-2">SPAY Contract Adress:</span> 
                  </div>
                </div>
                <div className=" mx-auto mt-3 md:mt-0 md:mx-0">
-                 <div>0x58FaD9E3C3AE54c9BA98c3f0E4bF88aB3E8Cf3c5 (ETH) </div>
-                 <div>0x13A637026dF26F846D55ACC52775377717345c06 (BTC)</div>
+                 <div>0xc0ffee254729296a45a3885639AC7E10F9d54979 (ETH) </div>
+                 <div>0xc0ffee254729adga5a388563asdgE10Fadddsd79 (BTC)</div>
                 </div>
         </div>
       </div>
       <div>
       <div className="container mx-auto py-5  flex flex-row gap-x-2  w-11/12 md:w-full">
-          <Image src={handIcon} width="26" height="26" />  
+          <Image src={handIcon} width="26" height="26" alt="hand icon" />  
           <div><span className="text-spacey-grey mr-2"></span> You can purchase SPAY on: 
           </div>
       </div>
       </div>
+      
       <div>
 
       </div>
@@ -52,7 +53,7 @@ const GetSpay: NextPage = () => {
             <div className="transform transition duration-200 hover:-translate-y-2 block">
             <Link href="https://pancakeswap.finance" >
               <a target="_blank">
-              <Image src={panCakesSwap} />
+              <Image src={panCakesSwap} alt="PanCakseSwap" />
               </a>
               </Link>
              </div>
@@ -61,7 +62,7 @@ const GetSpay: NextPage = () => {
             <div  className="transform transition duration-200 hover:-translate-y-2 block">
             <Link href="https://uniswap.org/">
             <a target="_blank">
-              <Image src={uniSwamp} />
+              <Image src={uniSwamp} alt="UniSwamp" />
               </a>
              </Link>
              </div>
