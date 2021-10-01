@@ -45,6 +45,7 @@ const ContactSection =  () => {
                   <div className="mt-5">
                       <Link href="https://discord.com/invite/cUeNS8UzGW" passHref>
                       <a  target="_blank"  className="bg-spacey-pink px-6 py-2 inline-block text-spacey-white rounded  transform transition duration-200 hover:-translate-y-1 hover:bg-spacey-pink-hover">
+
                           GET IN TOUCH
                       </a>
                       </Link>
