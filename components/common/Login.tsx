@@ -3,14 +3,12 @@ import {MdClose} from "react-icons/md"
 import Image from "next/image"
 import metaMask from "../../public/images/ic_metamask@2x.png"
 import waxIcon from "../../public/images/ic_wax@2x.png"
-
 interface Props {
   open:Boolean,
   handleOpen:Function
 }
 
 export default function Login( {open, handleOpen} : Props) {
-
   return (
     <>
       {open ? (

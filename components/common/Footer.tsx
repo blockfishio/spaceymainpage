@@ -92,7 +92,7 @@ const Footer = ({mode}:Props) => {
                     <a target="_blank"><FaFacebookF /></a>
                     </Link>
                 </div>
-                <div className=" height-2 align-text-top flex-grow-0"><span>@2021 space2025.com</span></div>
+                <div className=" height-2 align-text-top flex-grow-0"><span>@2021 spacey2025.com</span></div>
             </div>
           </div>
         </footer>

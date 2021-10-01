@@ -22,8 +22,7 @@ const SideMenu = ({active, toggle = false}:Props) => {
                </Link>
             </li>
             <li className={"pl-2 py-1 "  + (activeTab === 'background' ? activeClass : "")}>
-            <Link href="/info/background">
-
+                <Link href="/info/background">
                 Background Story
                 </Link>
                 </li>

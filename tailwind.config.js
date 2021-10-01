@@ -31,9 +31,8 @@ module.exports = {
      },
      padding: {
        '16px': '16px'
-     }
-    },
-    colors: {
+     },
+     colors: {
       'spacey-heavy': '#060f18', 
       'spacey-white': '#fff',
       'spacey-navbar': '#242129',
@@ -42,6 +41,7 @@ module.exports = {
       'spacey-black-background': '#1a1a1a',
       'spacey-black': '#000',
       'spacey-pink': '#ff2d54',
+      'spacey-pink-hover': '#ff5c58',
       'spacey-input-background': '#f1f1f1',
       'spacey-sidemenu-background': '#21252e',
       'spacey-orange-border': '#f87c6b',
@@ -71,6 +71,7 @@ module.exports = {
       'spacey-login-close': '#3d3b47',
       'spacey-login-text-heavy': '#bdbbc7',
       'spacey-login-text-light': '#777387'
+     }
     },
     fontFamily: {
       'segoe': ["Segoe UI",'roboto',"Helvetica Neue",'arial','sans-serif'],
