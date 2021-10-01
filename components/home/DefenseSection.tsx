@@ -2,6 +2,7 @@ import React from 'react';
 import startDefense from '../../public/images/ic_defend@2x.png'
 import defenseButton from '../../public/images/ic_startDEFENSE@2x.png'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const DefenseSection =  () => {
   return (
@@ -21,7 +22,11 @@ const DefenseSection =  () => {
                       to effectively defend against enemy invasion
                   </div>
                  <div className="mt-20 mb-20  mx-auto md:mx-0   w-64 md:w-80 h-auto">
+                   <Link href="https://game.spacey2025.com">
+                     <a>
                      <Image src={defenseButton} alt="Defense" layout="responsive"/>
+                     </a>
+                     </Link>
                  </div>
                  
               </div>

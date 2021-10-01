@@ -18,7 +18,7 @@ const ExploreSection =  () => {
                         <div>Explore LANDS owned by users to experience scenes and structures Mars</div>
                     </div>
                     <div className="mt-20 mb-20  mx-auto   w-64 md:w-80 h-auto">
-                        <Link href="/">
+                        <Link href="https://game.spacey2025.com">
                         <a>
                             <Image src={startExploring} layout="responsive" alt="Start Exploring" />
                         </a>

@@ -20,7 +20,7 @@ const TradeSection =  () => {
                  </div>
                  <div className="mt-10 md:mt-20 hidden md:block">
                    <div className=" w-7/12  xl:w-6/12 h-auto">
-                   <Link href="/">
+                   <Link href="https://market.spacey2025.com">
                      <a>
                          <Image src={startBrowsing} layout="responsive" alt="Start Browsing"/>
                      </a>

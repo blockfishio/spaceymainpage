@@ -39,7 +39,7 @@ const LaunchSection =  () => {
         <div className="container mx-auto mt-20 mb-20 overflow-hidden">   
             
             <div className="mx-auto md:float-right w-7/12 md:w-4/12 xl:w-3/12 h-auto"> 
-              <Link href="/">
+              <Link href="https://game.spacey2025.com">
                 <a>
                     <Image src={startLaunch} layout="responsive" alt="start launch"></Image>
                 </a>

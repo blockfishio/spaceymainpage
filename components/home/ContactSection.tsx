@@ -13,7 +13,7 @@ const ContactSection =  () => {
                       Have question about this Mars mission? Reach us on Discord at any time
                   </div>
                   <div className="mt-5">
-                      <Link href="/">
+                      <Link href="https://discord.com/invite/cUeNS8UzGW">
                       <a className="bg-spacey-pink px-6 py-2 text-spacey-white rounded">
                           GET IN TOUCH
                       </a>

@@ -17,18 +17,18 @@ const Footer = ({mode}:Props) => {
             title: 'Privacy Policy', 
             link: '/privacy'
         },
-        {
-            title: 'Term of Use', 
-            link: '/'
-        },
-        {
-            title: 'Content Policy', 
-            link: '/'
-        },
-        {
-            title: 'Code of Ethics',
-            link: '/'
-        },
+        // {
+        //     title: 'Term of Use', 
+        //     link: '/'
+        // },
+        // {
+        //     title: 'Content Policy', 
+        //     link: '/'
+        // },
+        // {
+        //     title: 'Code of Ethics',
+        //     link: '/'
+        // },
       
     ]
     
