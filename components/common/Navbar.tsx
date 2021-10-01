@@ -65,12 +65,12 @@ const NavBar = ({mode}:Props) => {
                 leaveFrom="opacity-100"
                 leaveTo="opacity-0"
              >
-               <div className="flex  bg-spacey-navbar  flex-col  justify-center md:hidden fixed  top-0 left-0 w-full z-50 ">
+               <div className="flex  bg-spacey-navbar  flex-col  justify-center md:hidden fixed px-16px top-0 left-0 w-full z-50 ">
                          <div>
                             <div className="flex flex-row items-center">
                                 <div className="">
                                 <Link  href="/">
-                                 <a className="ml-1"><Image priority={true} src={mobileLogo} width="200" height="50"   quality="100" alt="Mobile Logo"/></a>
+                                 <a className=""><Image priority={true} src={logo} width="200" height="50"   quality="100" alt="Mobile Logo"/></a>
                                 </Link>
                                 </div>
                                 <div className="text-spacey-mobile-grey flex items-center">
@@ -79,7 +79,7 @@ const NavBar = ({mode}:Props) => {
                             </div>
                           <ul className="flex flex-col  font-segoe text-nav uppercase text-base font-semibold text-nav">
                           {navLinks.map(({ title, link, link_type }, id) => (
-                            <li key={id} className="p-3 hover:bg-spacey-mobile-background active:bg-spacey-mobile-background">
+                            <li key={id} className="py-3 hover:bg-spacey-mobile-background active:bg-spacey-mobile-background">
                                 
                                 <Link href={link} >
                                 <a className="" target={link_type}>
@@ -93,10 +93,10 @@ const NavBar = ({mode}:Props) => {
               </div>
               </Transition>
         </div>
-            <nav className={"flex items-center justify-between px-5 fixed top-0 left-0  w-full  z-40 text-spacey-white " + backgroundMode}>
+            <nav className={"flex items-center justify-between px-16px  md:px-5 fixed top-0 left-0 w-full  z-40 text-spacey-white " + backgroundMode}>
                <div className="container mx-auto">
-               <div className="flex-1 flex items-center font-robo uppercase md:text-sm lg:text-base font-semibold ">
-                   <div className="flex-initial lg:mr-4 -ml-5">
+               <div className="flex-1 flex items-center font-robo uppercase md:text-sm lg:text-base font-semibold md:max-w-1064 container mx-auto">
+                   <div className="flex-initial lg:mr-4 ">
                     <Link href="/">
                       <a>
                         <Image src={logo} quality="100" width="200" height="50" alt="Logo" />

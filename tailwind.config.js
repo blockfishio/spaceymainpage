@@ -16,6 +16,9 @@ module.exports = {
         "login-background": "url(/images/ic_loginbasemap.png)",
         "dot-image": "url(/images/ic_dottedline.png)"
       }), 
+      maxWidth: {
+        '1064': '1064px'
+      },
       backgroundPosition: {
           "center-right": "70% top"
       },
@@ -25,6 +28,9 @@ module.exports = {
       },
       fontSize: {
         'nav': ['13px', '20px']
+     },
+     padding: {
+       '16px': '16px'
      }
     },
     colors: {
