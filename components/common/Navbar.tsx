@@ -16,7 +16,7 @@ const NavBar = ({mode}:Props) => {
     
     const navLinks = [
         {
-            title: 'Market', 
+            title: 'Marketplace', 
             link: 'https://market.spacey2025.com', 
             link_type: 'external'
         },
@@ -25,16 +25,16 @@ const NavBar = ({mode}:Props) => {
             link: '/info',
             link_type: ''
         },
-        {   
-            title: 'Dao', 
-            link: '/dao',
-            link_type: ''
-        },
-        {
-            title: 'Get Spay', 
-            link: '/getspay',
-            link_type: ''
-        },
+        // {   
+        //     title: 'Dao', 
+        //     link: '/dao',
+        //     link_type: ''
+        // },
+        // {
+        //     title: 'Get Spay', 
+        //     link: '/getspay',
+        //     link_type: ''
+        // },
         {
             title: 'Community',
             link: '/community',

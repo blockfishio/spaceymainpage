@@ -15,25 +15,11 @@ const Info: NextPage = () => {
                     <h3 className=" text-4xl py-4 font-bankgothic"> Background Story</h3>
                   
                     <div>
-                    The shoes had been there for as long as anyone could remember. 
-                    In fact, it was difficult for anyone to come up with a date they had first appeared. 
-                    It had seemed they&apos;d always been there and yet they seemed so out of place.
-                     Why nobody had removed them was a question that had been asked time and again, 
-                     but while they all thought it, nobody had ever found the energy to actually do it. 
-                     So, the shoes remained on the steps, out of place in one sense,
-                      but perfectly normal in another.
-                    </div>
-                    <div className="md:hidden;">
-                       <Image src={infoBuildImage} alt="information background" />
-                    </div>
-                    <div>
-                    The shoes had been there for as long as anyone could remember. 
-                    In fact, it was difficult for anyone to come up with a date they had first appeared. 
-                    It had seemed they&apos;d always been there and yet they seemed so out of place.
-                     Why nobody had removed them was a question that had been asked time and again, 
-                     but while they all thought it, nobody had ever found the energy to actually do it. 
-                     So, the shoes remained on the steps, out of place in one sense,
-                      but perfectly normal in another.
+                    Our current civilization is based on disposable fossil energy such as coal and petroleum. Although we have nuclear fission technology, heavy element fuels such as uranium and plutonium are also disposable energy sources with limited reserves. Water, solar, and wind energy alone are not enough to support our current level of civilized development. As a species and a civilization, if human beings want to survive and avoid a tragic end, they must put their sight and energy on the sea of ​​stars above their heads.
+</div><div>In an alternate universe, Elan Musk is still obsessed with the goal of making humans a multiplanetary species. Because of the faster development of science and technology in this universe, he can start his Mars mission earlier. 
+</div><div>In 2025, SpaceY space development company successfully established the first human activity base on Mars, and they selected elites from all walks of life as human pioneers to participate in the planetary development plan.
+</div><div>While transforming the Martian environment to prepare for the future immigration goal, humans are also exploring the mysteries of the universe, the origin of mankind, and looking for evidence of the existence of higher civilizations and extraterrestrial lifes. You will face various unknown challenges here, such as the harsh environment and the extraterrestrial lives which you find out may not be friendly…
+
                     </div>
                 </div>
                 <div className="hidden md:blockmt-10">

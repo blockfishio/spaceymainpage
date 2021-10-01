@@ -15,25 +15,8 @@ const Info: NextPage = () => {
                     <h3 className=" text-4xl py-4 font-bankgothic"> Upgrade</h3>
                   
                     <div>
-                    The shoes had been there for as long as anyone could remember. 
-                    In fact, it was difficult for anyone to come up with a date they had first appeared. 
-                    It had seemed they&apos;d always been there and yet they seemed so out of place.
-                     Why nobody had removed them was a question that had been asked time and again, 
-                     but while they all thought it, nobody had ever found the energy to actually do it. 
-                     So, the shoes remained on the steps, out of place in one sense,
-                      but perfectly normal in another.
-                    </div>
-                    <div className="md:hidden;">
-                       <Image src={infoBuildImage} alt="Build information" />
-                    </div>
-                    <div>
-                    The shoes had been there for as long as anyone could remember. 
-                    In fact, it was difficult for anyone to come up with a date they had first appeared. 
-                    It had seemed they&apos;d always been there and yet they seemed so out of place.
-                     Why nobody had removed them was a question that had been asked time and again, 
-                     but while they all thought it, nobody had ever found the energy to actually do it. 
-                     So, the shoes remained on the steps, out of place in one sense,
-                      but perfectly normal in another.
+                    Killing aliens gains resources that are used to build and upgrade towers which can be sold at a loss. Tower upgrades increase various statistics including fire power and range.
+
                     </div>
                 </div>
                 <div className="hidden md:blockmt-10">
