@@ -11,14 +11,14 @@ const LaunchSection =  () => {
                 <div className="w-11/12 hidden md:block" >
                     <div className="font-bankgothic text-6xl lg:text-8x1">MARS &</div>
                     <div className="flex flex-rows flex-wrap items-center">
-                         <div className="w-60">COLONY MARS with THE POWER OF BLOCK CHAIN</div> <div className="font-bankgothic text-6xl lg:text-8x1">BLOCKCHAIN</div>
+                         <div className="w-60">COLONIZING MARS with THE POWER OF BLOCK CHAIN</div> <div className="font-bankgothic text-6xl lg:text-8x1">BLOCKCHAIN</div>
                     </div>
                 </div>
                 <div className="w-11/12 block md:hidden" >
                     <div className="text-center">
                         <div className="font-bankgothic text-4xl md:text-5x1">MARS & BLOCKCHAIN</div>
                         <div className="flex flex-cols flex-wrap items-center justify-center px-10 text-xl mt-5">
-                            <div className="text-center">COLONY MARS with </div>
+                            <div className="text-center">COLONIZING MARS with </div>
                             <div className="text-center"> THE POWER OF BLOCK CHAIN</div>
                         </div>
                     </div>
@@ -30,7 +30,7 @@ const LaunchSection =  () => {
                 <div className="flex flex-rows justify-center">
                     <div className="w-11/12">
                         <div className="w-96">
-                        Purchase your SpaceY Boarding Pass to get early access to the grand exploring on Mars
+                        An awesome tower defense game that offers a rich gaming experience with multiple opportunities to earn money
                         </div>
                 </div>
                </div>

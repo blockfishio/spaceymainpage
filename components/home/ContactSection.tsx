@@ -16,7 +16,7 @@ const ContactSection =  () => {
 
     if (emailAddress.length > 0 && validateEmail(emailAddress)){
         try {
-            const result = await axios.post("https://play.spacey2025.com/api/email/", {email_address: "email_address"})
+            const result = await axios.post("https://play.spacey2025.com/api/email/" + emailAddress)
             setEmailSubscriptionStatus("success")
             setMessage("The email has been successfully subscribed")
           } catch (err) {
