@@ -44,7 +44,7 @@ const ContactSection =  () => {
                   </div>
                   <div className="mt-5">
                       <Link href="https://discord.com/invite/cUeNS8UzGW" passHref>
-                      <a  target="_blank"  className="bg-spacey-pink px-6 py-2 inline-block text-spacey-white rounded  transform transition duration-200 hover:-translate-y-1 hover:bg-spacey-pink-hover">
+                      <a  target="_blank"  className="bg-spacey-pink px-6 py-2 inline-block text-spacey-white rounded  transform transition duration-200 hover:-translate-y-1 hover:bg-spacey-pink-hover hover:text-spacey-mobile-background-hover">
 
                           GET IN TOUCH
                       </a>
@@ -61,7 +61,7 @@ const ContactSection =  () => {
                       <input placeholder="email@domain.com" className="mr-2 pl-2 py-2 rounded bg-spacey-input-background w-full" value={emailAddress || ''} onChange={e => setEmailAddress(e.target.value)} />
                       </div>
                       <Link href="/">
-                      <a onClick={subscribeEmail} className="bg-spacey-pink px-6 py-2 transform transition duration-200 hover:-translate-y-1 text-spacey-white rounded text-center hover:bg-spacey-pink-hover">
+                      <a onClick={subscribeEmail} className="bg-spacey-pink px-6 py-2 transform transition duration-200 hover:-translate-y-1 text-spacey-white rounded text-center hover:bg-spacey-pink-hover hover:text-spacey-mobile-background-hover">
                           SIGN UP
                       </a>
                       </Link>
