@@ -18,19 +18,19 @@ const FreeTicket: NextPage = () => {
                     SPREAD THE WORD &
                 </h1>
                 <h1 className="font-bankgothic flex-grow-0 pl-20">
-                     CLAIM TOUR FREETIVKET
+                     CLAIM YOUR FREETICKET
                 </h1>
               </div>
 
               <div className=" mb-10 md:hidden text-2xl text-center">
                 <h1 className="font-bankgothic flex-grow-0">
-                    SPREAD THE WORD 
+                    SPREAD THE WORLD 
                 </h1>
                 <h1>
                     &
                 </h1>
                 <h1 className="font-bankgothic flex-grow-0">
-                     CLAIM TOUR FREETIVKET
+                     CLAIM TOUR FREETICKET
                 </h1>
               </div>
 

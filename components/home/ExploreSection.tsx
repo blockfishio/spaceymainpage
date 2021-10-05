@@ -14,8 +14,8 @@ const ExploreSection =  () => {
                         <Image src={exploringTitle} layout="responsive" alt="Exploring Title" />
                     </div>
                     <div className="text-center text-xl tracking-wide px-5">
-                        <div className="mb-5 opacity-80">Contribute to the future development of manking on Mars</div>
-                        <div>Explore LANDS owned by users to experience scenes and structures Mars</div>
+                        <div className="mb-5 opacity-80">Contribute to the future development of mankind on Mars</div>
+                        <div>Explore LANDS owned by users to experience scenes and structures</div>
                     </div>
                     <div className="mt-20 mb-20  mx-auto   w-64 md:w-80 h-auto">
                         <Link href="https://game.spacey2025.com">
