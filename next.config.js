@@ -6,6 +6,7 @@ module.exports = {
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
   },
+  exportTrailingSlash: true,
   async rewrites() {
     return {beforeFiles:[
 
@@ -26,7 +27,7 @@ module.exports = {
   }},
   images: {
     loader: 'imgix',
-    path: 'https://test.spacey2025.com/',
+    path: 'https://spacey2025.com/',
   },
 
 }

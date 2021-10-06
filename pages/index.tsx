@@ -11,7 +11,7 @@ import TradeSection from '../components/home/TradeSection'
 const Home: NextPage = () => {
   return (
     <div className="text-spacey-white">
-      <Header title="Spacey Home Page" />
+      <Header title="SpaceY2025" />
       <div className="bg-hero-image-mobile md:bg-center md:bg-hero-image lg:bg-hero-image-lg overflow-hidden bg-cover ">
       <NavBar mode="light" />
       <LaunchSection />
