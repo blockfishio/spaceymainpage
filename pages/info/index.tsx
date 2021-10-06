@@ -16,7 +16,7 @@ import infoImage4 from '../../public/images/mobile_info_4.png'
 const Info: NextPage = () => {
   return (
     <div>
-      <div className="grid grid-cols-1 md:grid-cols-4 container mx-auto mt-10  md:mt-28 ">
+      <div className="grid grid-cols-1 md:grid-cols-4 container mx-auto mt-10  md:mt-28 md:max-w-1064 ">
           <SideMenu active="home"  toggle={false}/>
           <div className="md:col-span-3 hidden md:block">
                 <div className="flex flex-row gap-4 justify-between">

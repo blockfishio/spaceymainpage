@@ -6,7 +6,7 @@ const Privacy: NextPage = () => {
 
   const mailAddress = "support@spacey2025.com"
   return (
-    <div className="container mt-40 mx-auto px-5 md:px-10">
+    <div className="container mt-40 mx-auto px-5 md:px-10 md:max-w-1064 ">
      <h1 className="font-bankgothic text-4xl mb-10">PRIVACY POLICY</h1>
      <div className="">
          <h3 className="mb-5 text-lg">1. Introduction</h3>

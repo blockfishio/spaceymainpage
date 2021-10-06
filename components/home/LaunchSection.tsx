@@ -6,9 +6,9 @@ import Link from 'next/link'
 const LaunchSection =  () => {
   return (
     <section>
-        <div className="container mx-auto md:mt-20 pt-10 md:pt-10">
+        <div className="md:max-w-1064 container mx-auto md:mt-20 pt-10 md:pt-10">
             <div className="flex flex-rows justify-center  align-center mt-20">
-                <div className="w-11/12 hidden md:block" >
+                <div className="w-full hidden md:block" >
                     <div className="font-bankgothic text-6xl lg:text-8x1">MARS &</div>
                     <div className="flex flex-rows flex-wrap items-center">
                          <div className="w-60">COLONIZING MARS WITH THE POWER OF BLOCK CHAIN</div> <div className="font-bankgothic text-6xl lg:text-8x1">BLOCKCHAIN</div>
@@ -25,10 +25,10 @@ const LaunchSection =  () => {
                 </div>
             </div>
         </div>
-        <div className="gradientBackground md:p-10 py-10 mt-20">
-            <div className="md:container mx-auto ">
+        <div className="gradientBackground md:p-10 py-10 mt-20 ">
+            <div className="md:container mx-auto  md:max-w-1064">
                 <div className="flex flex-rows justify-center">
-                    <div className="w-11/12">
+                    <div className="w-11/12 md:w-full">
                         <div className="w-96">
                         An awesome tower defense game that offers a rich gaming experience with multiple opportunities to earn money
                         </div>

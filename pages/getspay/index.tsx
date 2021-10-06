@@ -11,7 +11,7 @@ import handIcon from '../../public/images/ic_click@2x.png'
 const GetSpay: NextPage = () => {
   return (
     <div>
-      <div className="mt-32 container mx-auto">
+      <div className="mt-32 container mx-auto md:max-w-1064 ">
         <div className="flex flex-row text-center justify-center md:justify-start">
             <div className=" font-bankgothic text-4xl md:text-6xl ">
               GET SPAY

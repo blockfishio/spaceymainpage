@@ -8,7 +8,7 @@ import infoBuildImage from '../../public/images/info-build.jpg'
 const Info: NextPage = () => {
   return (
     <div>
-      <div className="grid md:grid-cols-4 container mx-auto mt-10 md:mt-28">
+      <div className="grid md:grid-cols-4 container mx-auto mt-10 md:mt-28 md:max-w-1064 ">
           <SideMenu active="build" toggle={true} />
           <div className="col-span-3 p-5 md:p-0">
                 <div className="flex flex-col gap-4 justify-between">

@@ -20,7 +20,6 @@ const ContactSection =  () => {
             const result = await axios.post("https://play.spacey2025.com/api/email/" + emailAddress)
             setEmailSubscriptionStatus("success")
             setMessage("The email has been successfully subscribed")
-            console.log('are you ther 1')
           } catch (err) {
             setEmailSubscriptionStatus("fail")
             setMessage("Email can't be subscribed")
@@ -31,15 +30,12 @@ const ContactSection =  () => {
        
     }
 
-
-
-
     return false
   }
 
     return (
     <section>
-        <div className="container mx-auto text-spacey-black my-10 md:my-32 ">
+        <div className="md:max-w-1064 container mx-auto text-spacey-black my-10 md:my-32 ">
            <div className="grid grid-cols-1 md:grid-cols-2   md:gap-4 p-5 md:p-0">
                <div className="flex flex-col justify-between">
                   <h2 className="text-2xl font-medium mb-3 "> Contact us</h2>

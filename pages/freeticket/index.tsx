@@ -11,7 +11,7 @@ const FreeTicket: NextPage = () => {
   const emailBox = useRef<HTMLInputElement>(null)
 
   return (
-    <div className="flex flex-col md:flex-row mt-32 gap-x-6 container mx-auto">
+    <div className="flex flex-col md:flex-row mt-32 gap-x-6 container mx-auto md:max-w-1064 ">
        <div className="flex flex-col items-center">
              <div className=" mb-5 hidden md:block text-3xl">
                 <h1 className="font-bankgothic flex-grow-0">

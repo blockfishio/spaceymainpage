@@ -16,9 +16,11 @@ module.exports = {
         "login-background": "url(/images/ic_loginbasemap.png)",
         "dot-image": "url(/images/ic_dottedline.png)"
       }), 
+ 
       maxWidth: {
         '1064': '1064px'
       },
+
       backgroundPosition: {
           "center-right": "70% top"
       },
@@ -29,8 +31,18 @@ module.exports = {
       fontSize: {
         'nav': ['13px', '20px']
      },
+     margin: {
+       '5px': '5px',
+       '3px': '3px'
+     },
      padding: {
-       '16px': '16px'
+       '3px': '3px',
+       '16px': '16px',
+       '19px': '19px',
+       '65px': '65px'
+     },
+     fontSize: {
+       '13px': '13px'
      },
      colors: {
       'spacey-heavy': '#060f18', 
@@ -73,10 +85,11 @@ module.exports = {
       'spacey-login-close': '#3d3b47',
       'spacey-login-text-heavy': '#bdbbc7',
       'spacey-login-text-light': '#777387'
-     }
+     },
+
     },
     fontFamily: {
-      'segoe': ["Segoe UI",'roboto',"Helvetica Neue",'arial','sans-serif'],
+      'segoe': ["Segoe UI", "roboto", "Helvetica Neue", "arial, sans-serif"],
       'robo': ['roboto', 'sans-serif', 'arial','helvetica','clean'], 
       'bankgothic': ['Bank Gothic', 'roboto', 'sans-serif']
     }

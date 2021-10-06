@@ -65,25 +65,29 @@ const NavBar = ({mode}:Props) => {
                 leaveFrom="opacity-100"
                 leaveTo="opacity-0"
              >
-               <div className="flex  bg-spacey-navbar  flex-col  justify-center md:hidden fixed px-16px top-0 left-0 w-full z-50 ">
-                         <div>
+               <div className="flex  bg-spacey-navbar  flex-col  justify-center md:hidden fixed px-16px top-0 left-0 w-full z-50  ">
+                         <div className="mt-3px">
                             <div className="flex flex-row items-center">
                                 <div className="">
                                 <Link  href="/">
-                                 <a className=""><Image priority={true} src={logo} width="200" height="50"   quality="100" alt="Mobile Logo"/></a>
+                                 <a className="spacey_logo_bg">
+                                     <i className="spacey_logo">
+
+                                     </i>
+                                 </a>
                                 </Link>
                                 </div>
                                 <div className="text-spacey-mobile-grey flex items-center">
                                 <FaCaretUp className="cursor-pointer text-2xl" onClick={() => setIsOpen(false) } > open</FaCaretUp>
                                 </div>
                             </div>
-                          <ul className="flex flex-col  font-segoe text-nav uppercase text-base font-semibold text-nav">
+                          <ul className="flex flex-col  font-segoe text-nav uppercase text-base font-normal text-nav">
                           {navLinks.map(({ title, link, link_type }, id) => (
                             <li key={id} className="py-3 hover:bg-spacey-mobile-background active:bg-spacey-mobile-background">
                                 
                                 <Link href={link} >
                                 <a className="" target={link_type}>
-                                 <span>{title}</span>
+                                 <span className="py-19px px-65px text-13px ">{title}</span>
                                  </a>
                                 </Link>
                             </li>
@@ -94,14 +98,16 @@ const NavBar = ({mode}:Props) => {
               </Transition>
         </div>
             <nav className={"flex items-center justify-between px-16px  md:px-5 fixed top-0 left-0 w-full  z-40 text-spacey-white " + backgroundMode}>
-               <div className="container mx-auto">
-               <div className="flex-1 flex items-center font-robo uppercase md:text-sm lg:text-base font-semibold md:max-w-1064 container mx-auto">
-                   <div className="flex-initial lg:mr-4 ">
-                    <Link href="/">
-                      <a>
-                        <Image src={logo} quality="100" width="200" height="50" alt="Logo" />
-                      </a>
-                    </Link>
+               <div className="container mx-auto mt-3px">
+               <div className="flex-1 flex items-center font-robo uppercase md:text-sm lg:text-base font-normal md:max-w-1064 container mx-auto">
+                   <div className="flex-initial lg:mr-8">
+                   <Link  href="/">
+                   <a className="spacey_logo_bg block pt-3px">
+                        <i className="spacey_logo">
+
+                        </i>
+                     </a>
+                   </Link>
                    </div>
                    <div className="md:hidden">
                        {!isOpen ? (
@@ -118,7 +124,7 @@ const NavBar = ({mode}:Props) => {
                      </div>
             
                     <div className="hidden md:flex flex-1 flex-grow">
-                        <ul className="flex flex-row space-x-4 font-segoe text-nav">
+                        <ul className="flex flex-row space-x-7 font-segoe text-nav text-13px mt-5px">
                         {navLinks.map(({ title, link, link_type }, id) => (
                             <li key={id} >
                                 <Link href={link}>

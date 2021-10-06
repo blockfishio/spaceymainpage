@@ -8,8 +8,8 @@ import Link from 'next/link'
 const TradeSection =  () => {
   return (
     <section className="bg-spacey-black-background h-120 md:h-192  flex items-center justify-center">
-        <div className="container mx-auto py-52">
-          <div className="grid grid-cols-2 pl-5 pr-5 md:pr-0 md:gap-2 self-center ">
+        <div className="md:max-w-1064  container mx-auto py-52">
+          <div className="grid grid-cols-2 pl-5 md:pl-0 pr-5 md:pr-0 md:gap-2 self-center ">
              <div className="flex flex-col justify-between">
                  <div className="pb-10  w-48 md:w-80 h-auto">
                    <Image src={tradeImage} layout="responsive" alt="Trade Image" />
