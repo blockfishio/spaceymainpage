@@ -17,7 +17,7 @@ const DefenseSection =  () => {
                       <Image src={startDefense} alt="Start Defense" layout="responsive"/>
                       <hr className="mt-2 w-40 text-spacey-underline bg-spacey-underline h-0.5"  />
                   </div>
-                  <div className="mt-20 w-200 text-center md:text-left opacity-70 text-xl">
+                  <div className="mt-20 w-7/12 text-center md:text-left opacity-70 text-xl">
                       Use your strategies to build a Martian defense system 
                       to effectively defend against enemy invasion
                   </div>
