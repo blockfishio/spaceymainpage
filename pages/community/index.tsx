@@ -58,13 +58,15 @@ const GetSpay: NextPage = () => {
                     </Link>
                 </div>
                 <div className=" cursor-pointer bg-spacey-form-background mt-5 p-4    md:p-10 transform transition duration-200 hover:-translate-y-2 h-full" >
-                    <Link href="https://www.facebook.com/SpaceY-2025-102636005328431" passHref={true}>
+                <Link href="https://twitter.com/spacey2025"  passHref={true}>
+
                     <a target="_blank" className="text-center block">    < FaTwitter  size={70} />Twitter</a>
                     </Link>
                 </div>
              
                 <div className=" cursor-pointer bg-spacey-form-background mt-5 p-4  md:p-10 transform transition duration-200 hover:-translate-y-2 h-full" >
-                    <Link href="https://twitter.com/spacey2025"  passHref={true}>
+                <Link href="https://www.facebook.com/SpaceY-2025-102636005328431" passHref={true}>
+
                     <a target="_blank" className="text-center block"><FaFacebookF size={70} />Facebook</a>
                     </Link>
                 </div>

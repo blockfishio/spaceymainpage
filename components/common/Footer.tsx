@@ -72,7 +72,7 @@ const Footer = ({mode}:Props) => {
                     </Link>
                 </div>
                 <div className="height-2 cursor-pointer"  >
-                    <Link href="hhttps://t.me/Spacey2025" passHref={true}>
+                    <Link href="https://t.me/Spacey2025" passHref={true}>
                       <a target="_blank"> <FaTelegramPlane /></a>
                     </Link>
                 </div>
@@ -82,13 +82,15 @@ const Footer = ({mode}:Props) => {
                     </Link>
                 </div>
                 <div className="height-2 cursor-pointer" >
-                    <Link href="https://www.facebook.com/SpaceY-2025-102636005328431" passHref={true}>
+                <Link href="https://twitter.com/spacey2025"  passHref={true}>
+
                     <a target="_blank">    < FaTwitter /></a>
                     </Link>
                 </div>
              
                 <div className="height-2 cursor-pointer" >
-                    <Link href="https://twitter.com/spacey2025"  passHref={true}>
+                    <Link href="https://www.facebook.com/SpaceY-2025-102636005328431" passHref={true}>
+
                     <a target="_blank"><FaFacebookF /></a>
                     </Link>
                 </div>

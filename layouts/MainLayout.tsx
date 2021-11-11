@@ -11,7 +11,7 @@ const MainLayout = ({ children }: Props) => {
 
     return (
         <div className="flex flex-col min-h-screen bg-spacey-heavy text-spacey-white">
-            <Header title='Spacey' />
+            <Header title='Spacey2025' />
             <NavBar mode="dark" />                
             <div className="pb-6 flex-1">
                  {children}
