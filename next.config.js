@@ -19,10 +19,10 @@ module.exports = {
         destination: '/',
       },
 
-      {
-        source: '/getspay',
-        destination: '/',
-      },
+      // {
+      //   source: '/getspay',
+      //   destination: '/',
+      // },
     ]
   }},
   images: {

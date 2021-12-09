@@ -25,16 +25,16 @@ const NavBar = ({mode}:Props) => {
             link: '/info',
             link_type: ''
         },
-        // {   
-        //     title: 'Dao', 
-        //     link: '/dao',
-        //     link_type: ''
-        // },
-        // {
-        //     title: 'Get Spay', 
-        //     link: '/getspay',
-        //     link_type: ''
-        // },
+        {   
+            title: 'News', 
+            link: '/news',
+            link_type: ''
+        },
+        {
+            title: 'Get Spay', 
+            link: '/getspay',
+            link_type: ''
+        },
         {
             title: 'Community',
             link: '/community',
