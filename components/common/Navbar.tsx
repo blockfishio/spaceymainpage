@@ -25,11 +25,11 @@ const NavBar = ({mode}:Props) => {
             link: '/info',
             link_type: ''
         },
-        {   
-            title: 'News', 
-            link: '/news',
-            link_type: ''
-        },
+        // {   
+        //     title: 'News', 
+        //     link: '/news',
+        //     link_type: ''
+        // },
         {
             title: 'Get Spay', 
             link: '/getspay',
@@ -44,7 +44,13 @@ const NavBar = ({mode}:Props) => {
             title: 'Free Ticket',
             link: '/freeticket',
             link_type: ''
-        }
+        },
+        {
+            title: 'Get Started',
+            link: 'https://docs.spacey2025.com',
+            link_type: 'external'
+        },
+        
     ]
 
     const [isOpen, setIsOpen] = useState(false)
