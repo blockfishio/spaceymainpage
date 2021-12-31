@@ -122,7 +122,7 @@ if(records) {
         <div className="container mx-auto py-5 flex flex-col md:flex-row gap-x-2  w-11/12 md:w-full md:max-w-1064 ">
               <div className="flex flex-row">
                 <div className="mr-2  text-lg">
-                Leaderboard will be cleared every season. And seasonal rewards are distributed according to players' leaderboard ranking.
+                Leaderboard will be cleared every season. And seasonal rewards are distributed according to players&apos; leaderboard ranking.
                  </div>
                </div>
         </div>
