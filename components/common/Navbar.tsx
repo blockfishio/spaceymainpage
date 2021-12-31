@@ -1,7 +1,4 @@
 import React, { useState, useRef } from 'react';
-import logo from '../../public/images/logo.png'
-import mobileLogo from '../../public/images/spaceY_2_bright.png'
-import Image from 'next/image'
 import Link from 'next/link'
 import {FaCaretDown, FaCaretUp} from "react-icons/fa"
 import { useOnClickOutSide } from '../../hooks/useOnClickOutside';

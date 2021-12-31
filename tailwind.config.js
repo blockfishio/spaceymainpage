@@ -14,13 +14,16 @@ module.exports = {
         "astro-background": "url(/images/astro.jpg)",
         "astro-background-mobile": "url(/images/astro_mobile.jpg)",
         "login-background": "url(/images/ic_loginbasemap.png)",
-        "dot-image": "url(/images/ic_dottedline.png)"
+        "dot-image": "url(/images/ic_dottedline.png)",
+        "triangle-bg": "url(/images/triangle_bg@2x.png)"
       }), 
  
       maxWidth: {
         '1064': '1064px'
       },
-
+      width: {
+        '128': '32rem'
+      },
       backgroundPosition: {
           "center-right": "70% top"
       },
@@ -84,9 +87,20 @@ module.exports = {
       'spacey-dao-blue-bar': '#0ae5ff',
       'spacey-login-close': '#3d3b47',
       'spacey-login-text-heavy': '#bdbbc7',
-      'spacey-login-text-light': '#777387'
+      'spacey-login-text-light': '#777387',
+      'spacey-leaderboard-grey': '#393a4b',
+      'spacey-leaderboard-orange':'#e6931b',
+      'spacey-leaderboard-orange-light': '#ecaf6a',
+      'spacey-leaderboard-orange-lighter': '#b88b69',
+      'spacey-leaderboard-blue': '#0ba29a',
+      'spacey-leaderboard-button': '#B88B68',
+      'spacey-leaderboard-button-highlight': '#e6931d',
+      'spacey-leaderboard-yellow': '#f39800'
      },
-
+      gridTemplateColumns: {
+        // Simple 16 column grid
+        '18': 'repeat(18, minmax(0, 1fr))',
+      }
     },
     fontFamily: {
       'segoe': ["Segoe UI", "roboto", "Helvetica Neue", "arial, sans-serif"],
