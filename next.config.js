@@ -27,8 +27,7 @@ module.exports = {
   }},
   // images: {
   //   loader: 'imgix',
-  //   // path: 'https://spacey2025.com/',
-  //   path: 'https://localhost:3000/',
+  //   path: 'https://spacey2025.com/'
   // },
 
 }

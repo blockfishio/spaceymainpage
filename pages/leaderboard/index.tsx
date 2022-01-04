@@ -128,7 +128,8 @@ if(records) {
         </div>
       </div>
       <div>
-        <div className="container  mx-auto py-3  flex flex-row gap-x-2  w-11/12 md:w-full md:max-w-1064 ">
+        <div className="container  mx-auto py-3  flex flex-row gap-x-2  w-11/12 md:w-full md:max-w-1064 justify-between">
+          <div className="flex flex-row">
             <div className="">
                <div>The prize pool contains 80% SPAY income of each season and MetaMars with the same value as SPAY.
                </div>
@@ -139,10 +140,20 @@ if(records) {
             <div className="w-16 md:w-8 ml-4 mt-4 cursor-pointer" onClick={(event) => {setInfoOpen(true)}} >
               <Image className="w-4 h-4" src={infoIcon} layout="responsive" alt="info icon"/>
             </div>
-         
-            <div>
-           
             </div>
+       
+              <div className="flex flex-row items-center ">
+                  <div className="text-xl mr-4">
+                    Year
+                  </div>
+                  <div className="text-xl px-3  mr-6">
+                    <select className="bg-spacey-leaderboard-grey px-3 py-1">
+                      <option value="2022">2022</option>
+                      <option value="2022">2021</option>
+                    </select>
+                  </div>
+              </div>
+            
         </div>
       </div>
       <div>
