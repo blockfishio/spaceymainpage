@@ -25,9 +25,9 @@ module.exports = {
       // },
     ]
   }},
-  // images: {
-  //   loader: 'imgix',
-  //   path: 'https://spacey2025.com/'
-  // },
+  images: {
+    loader: 'imgix',
+    path: 'https://spacey2025.com/'
+  },
 
 }
