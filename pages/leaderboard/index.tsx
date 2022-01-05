@@ -66,6 +66,11 @@ const LeaderBoard: NextPage = () => {
     }
   }
 
+  const handleSeasonClick = (event:any) => {
+    //output the option value 
+    console.log(event.target.value)
+  } 
+
   /**
    * 
    * @param index used to determine the style. rank1 = 0, rank2 = 1, rank3 = 2, me = -1
@@ -104,13 +109,13 @@ if(records) {
             <div className="flex flex-row font-bankgothic text-4xl md:text-5xl items-center  gap-4">
               <div>Claim</div>
               <div>
-                <div className="flex flex-row bg-spacey-leaderboard-button hover:bg-spacey-leaderboard-button-highlight cursor-pointer px-4 py-2  rounded-xl jutisfy-between gap-2  items-center"  onClick={(event) => {setClaim(claims['spray']); setClaimOpen(true); console.log(isClaimOpen)}}> 
+                <div className="flex flex-row bg-spacey-leaderboard-button hover:bg-spacey-leaderboard-button-highlight cursor-pointer px-4 py-2  rounded-xl jutisfy-between gap-2  items-center"  onClick={(event) => {setClaim(claims['spray']); setClaimOpen(true); }}> 
                    <div className="w-4 md:w-8"><Image src={token} layout="responsive" alt="token Rounded" /></div>
                    <div className="text-base">SPRAY</div>
                  </div>
               </div>
               <div>
-                <div className="flex flex-row bg-spacey-leaderboard-button hover:bg-spacey-leaderboard-button-highlight cursor-pointer px-4 py-2  rounded-xl jutisfy-between gap-2  items-center"  onClick={(event) => {setClaim(claims['mars']); setClaimOpen(true); console.log(isClaimOpen)}}>
+                <div className="flex flex-row bg-spacey-leaderboard-button hover:bg-spacey-leaderboard-button-highlight cursor-pointer px-4 py-2  rounded-xl jutisfy-between gap-2  items-center"  onClick={(event) => {setClaim(claims['mars']); setClaimOpen(true);}}>
                   <div className="w-4 md:w-8"><Image src={mars} layout="responsive" alt="mars"/> </div>
                   <div className="text-base">MARS</div>
                 </div>
@@ -147,7 +152,7 @@ if(records) {
                     Year
                   </div>
                   <div className="text-xl px-3  mr-6">
-                    <select className="bg-spacey-leaderboard-grey px-3 py-1">
+                    <select className="bg-spacey-leaderboard-grey px-3 py-1" onChange={handleSeasonClick}>
                       <option value="2022">2022</option>
                       <option value="2022">2021</option>
                     </select>
@@ -178,7 +183,7 @@ if(records) {
             </div>
           </div>
          
-         <div className="overflow-auto h-96 md:h-120 pr-2 mt-2 relative">
+         <div className="overflow-auto h-96 md:h-120 pr-2 mt-2 relative" id="leaderboard">
           {records.map(({rank, name, wallet, score, wave, token_rewards, mars_rewards}, id) => (
           <div className="grid grid-cols-18 gap-2 font-bankgothic text-xs md:text-base" key={id}>
             <div className={"text-center py-2 col-span-1 self-end " + getStyle(id, 0) } >{rank}</div>

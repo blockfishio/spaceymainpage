@@ -45,13 +45,13 @@
 }
 
 /* width */
-::-webkit-scrollbar {
+#leaderboard::-webkit-scrollbar {
   width: 16px;
   height: 100px;
 }
 
 /* Track */
-::-webkit-scrollbar-track {
+#leaderboard::-webkit-scrollbar-track {
   border-radius: 5px;
   background: #141d2a;
   border: 2px solid #727171;  
@@ -59,7 +59,7 @@
 }
 
 /* Handle */
-::-webkit-scrollbar-thumb {
+#leaderboard::-webkit-scrollbar-thumb {
   background: #393a4b;  
   border-radius: 5px;
   border: 2px solid #9fa0a0;
