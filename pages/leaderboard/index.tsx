@@ -154,7 +154,7 @@ if(records) {
                   <div className="text-xl px-3  mr-6">
                     <select className="bg-spacey-leaderboard-grey px-3 py-1" onChange={handleSeasonClick}>
                       <option value="2022">2022</option>
-                      <option value="2022">2021</option>
+                      <option value="2021">2021</option>
                     </select>
                   </div>
               </div>
