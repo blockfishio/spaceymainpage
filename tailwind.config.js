@@ -95,11 +95,19 @@ module.exports = {
       'spacey-leaderboard-blue': '#0ba29a',
       'spacey-leaderboard-button': '#B88B68',
       'spacey-leaderboard-button-highlight': '#e6931d',
-      'spacey-leaderboard-yellow': '#f39800'
+      'spacey-leaderboard-yellow': '#f39800',
+      'spacey-leader-grey-heavy' : '#0e1622',
+      'spacey-leaderboard-very-easy': '#8fbd7a',
+      'spacey-leaderboard-easy': '#367336',
+      'spacey-leaderboard-medium': '#e8bc37',
+      'spacey-leaderboard-hard': '#f3951b',
+      'spacey-leaderboard-very-hard': '#d56363',
+      'spacey-leaderboard-insane':  '#a2bce2', 
+      'spacey-leaderboard-impossible': '#8878b6'
      },
       gridTemplateColumns: {
         // Simple 16 column grid
-        '18': 'repeat(18, minmax(0, 1fr))',
+        '17': 'repeat(17, minmax(0, 1fr))',
       }
     },
     fontFamily: {
