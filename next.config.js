@@ -24,10 +24,6 @@ module.exports = {
       //   destination: '/',
       // },
     ]
-  }},
-  images: {
-    loader: 'imgix',
-    path: 'https://spacey2025.com/'
-  },
+  }}
 
 }
