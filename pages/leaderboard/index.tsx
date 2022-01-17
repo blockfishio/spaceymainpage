@@ -54,10 +54,10 @@ const LeaderBoard: NextPage = () => {
 
   const resizeFont = (rank: number) => {
     if (rank >= 1000 && rank < 100000) {
-      return "text-xs tracking-tight py-3"
+      return "text-xs tracking-tight h-full"
     } 
     if (rank >= 100000) {
-      return "text-xs tracking-tighter py-3"
+      return "text-xs tracking-tighter h-full"
     }
   }
 
@@ -164,8 +164,17 @@ if(records) {
       <div className="gradientBackgroundFull my-5" >
         <div className="container mx-auto py-5 flex flex-col md:flex-row gap-x-2  w-11/12 md:w-full md:max-w-1064 ">
               <div className="flex flex-row">
-                <div className="mr-2  text-lg">
-                Leaderboard will be cleared every season. And seasonal rewards are distributed according to players&apos; leaderboard ranking.
+              <div className="mr-2 font-bankgothic text-lg  flex-col flex md:flex-row content-center">
+                  <div className="text-5xl text-spacey-leaderboard-yellow mr-4">Price Pool: </div>
+                  <div  className="w-4 md:w-12 flex content-center">
+                  <Image
+                      src={token} 
+                      // layout="responsive" 
+                      alt="token Rounded"  />  
+                  </div> 
+                  <div className="text-5xl text-spacey-leaderboard-yellow">
+                    100,000.00
+                  </div>
                  </div>
                </div>
         </div>
@@ -254,7 +263,7 @@ if(records) {
 
            {/** my score section */}
            <div className="grid grid-cols-17 gap-2 font-bankgothic absolute bottom-0 sticky">
-            <div className={"text-center py-2 col-span-1 self-end " + getStyle(-1) + " " + resizeFont(4555) } >4555</div>
+            <div className={"text-center py-2 col-span-1 self-end " + getStyle(-1) + " " + resizeFont(4555) } >0</div>
             <div className={" py-2 pl-2 col-span-3 self-end "  + getStyle(-1)}>Winner Chan</div>
             <div  className={" py-2 pl-2 col-span-3 self-end " + getStyle(-1)}>******2345</div>
             <div className={"py-2 pl-2 col-span-3 self-end " + getStyle(-1)}>20</div>

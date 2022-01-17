@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaFacebookF, FaDiscord, FaTelegramPlane, FaMediumM, FaTwitter} from "react-icons/fa"
-
+import Script from 'next/script'
 import Link from 'next/link'
 interface Props {
     mode: string
@@ -97,6 +97,7 @@ const Footer = ({mode}:Props) => {
                 <div className=" height-2 align-text-top flex-grow-0"><span>@2021 spacey2025.com</span></div>
             </div>
           </div>
+          <Script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=40a7dfee-2045-464d-b387-bcda5e54970a" strategy="afterInteractive" />
         </footer>
     );
 };
