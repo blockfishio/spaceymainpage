@@ -15,38 +15,47 @@ const NavBar = ({mode}:Props) => {
         {
             title: 'Marketplace', 
             link: 'https://market.spacey2025.com', 
-            link_type: 'external'
+            link_type: '_blank',
         },
         {
-            title: 'Info', 
-            link: '/info',
-            link_type: ''
+            title: 'Get Started',
+            link: 'https://docs.spacey2025.com',
+            link_type: '_blank'
         },
-        // {   
-        //     title: 'News', 
-        //     link: '/news',
-        //     link_type: ''
-        // },
+        
+        
         {
             title: 'Get Spay', 
             link: '/getspay',
             link_type: ''
         },
+        
         {
-            title: 'Community',
-            link: '/community',
+            title: 'Leaderboard',
+            link: 'https://reward.spacey2025.com',
+            link_type: '_blank'
+        },
+        // {
+        //     title: 'News',
+        //     link: 'https://spacey.gitbook.io/news/',
+        //     link_type: '_blank'
+        // },
+        // {
+        //     title: 'Careers',
+        //     link: 'https://spacey.gitbook.io/blockfishcareers/',
+        //     link_type: '_blank'
+        // },
+        {
+            title: 'Info', 
+            link: '/info',
             link_type: ''
         },
-        {
-            title: 'Free Ticket',
-            link: '/freeticket',
-            link_type: ''
-        },
-        {
-            title: 'Get Started',
-            link: 'https://docs.spacey2025.com',
-            link_type: 'external'
-        },
+        
+        // {
+        //     title: 'Dao', 
+        //     link: '/dao',
+        //     link_type: ''
+        // },
         
     ]
 

@@ -21,12 +21,12 @@ const SideMenu = ({active, toggle = false}:Props) => {
                Home
                </Link>
             </li>
-            <li className={"pl-2 py-1 "  + (activeTab === 'background' ? activeClass : "")}>
+            {/* <li className={"pl-2 py-1 "  + (activeTab === 'background' ? activeClass : "")}>
                 <Link href="/info/background">
                 Background Story
                 </Link>
-                </li>
-            <li className="pl-2 py-1 cursor-pointer" onClick={
+                </li> */}
+            {/* <li className="pl-2 py-1 cursor-pointer" onClick={
                 (e) => {
                     setPlayToggle(!playToggle)
                     console.log(playToggle)
@@ -35,7 +35,7 @@ const SideMenu = ({active, toggle = false}:Props) => {
             }><Link href="#">
                 GamePlay
                 </Link></li>
-                <ul className={"flex flex-col text-spacey-light-grey  text-base font-medium " + (playToggle ? "block" : "hidden") }>
+                <ul className={"flex flex-col text-spacey-light-white  text-base font-medium " + (playToggle ? "block" : "hidden") }>
                     <li className={"pl-6 py-1 " + (activeTab === 'build' ? activeClass : "")}>
                         <Link href="/info/build">
                             Build
@@ -51,12 +51,27 @@ const SideMenu = ({active, toggle = false}:Props) => {
                             Upgrade
                         </Link>
                     </li>
-                </ul>
-            <li className={"pl-2 py-1 " + (activeTab === 'market' ? activeClass : "")}>
+                </ul> */}
+            {/* <li className={"pl-2 py-1 " + (activeTab === 'market' ? activeClass : "")}>
                 <Link href="/info/market">
                 Market
                 </Link>
                 
+                </li> */}
+                <li className={"pl-2 py-1 " + (activeTab === 'community' ? activeClass : "")}>
+                <Link href="/info/community" >
+                Community
+                </Link>
+                </li>
+                <li className={"pl-2 py-1 " + (activeTab === 'news' ? activeClass : "")}>
+                <Link href="https://spacey.gitbook.io/news/" >
+                News
+                </Link>
+                </li>
+                <li className={"pl-2 py-1 " + (activeTab === 'careers' ? activeClass : "")}>
+                <Link href="https://spacey.gitbook.io/blockfishcareers/" >
+                Careers
+                </Link>
                 </li>
         </ul>
      </div>

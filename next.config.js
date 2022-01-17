@@ -19,11 +19,15 @@ module.exports = {
                     source: '/dao',
                     destination: '/',
                 },
+                {
+                  source:'/leaderboard',
+                  destination:'/'
+                },
 
-                // {
-                //   source: '/getspay',
-                //   destination: '/',
-                // },
+                {
+                  source: '/community',
+                  destination: '/',
+                },
             ]
         }
     },
