@@ -55,7 +55,7 @@ const GetSpay: NextPage = () => {
                   
                 </div>
                 <div className="cursor-pointer bg-spacey-form-background mt-5  p-4 md:p-10 transform transition duration-200 hover:-translate-y-2 h-full text-center">
-                    <Link href="hhttps://t.me/Spacey2025" passHref={true}>
+                    <Link href="https://t.me/Spacey2025" passHref={true}>
                       <a target="_blank" className="text-center block"> <FaTelegramPlane  size={70} />Telegram</a>
                     </Link>
                 </div>
